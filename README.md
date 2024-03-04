@@ -1,24 +1,22 @@
-# TÍTULO DO PROJETO
+# CONTROLA FÁCIL
 
-`CURSO`
+`Análise e Desvolvimetno de Sistemas`
 
-`DISCIPLINA`
+`Eixo 3 -  Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 03 `
 
-`SEMESTRE`
+`2024/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Carlos Eduardo Dos Santos Lima
+* Lais Barbosa de Oliveira
+* Lucas Oliveira Soares
 * Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
-
+*Orientador: Professor Harison Herman Silva
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
