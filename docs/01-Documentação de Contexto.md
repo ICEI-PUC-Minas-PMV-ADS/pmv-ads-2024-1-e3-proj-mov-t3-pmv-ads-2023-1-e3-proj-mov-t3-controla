@@ -4,7 +4,7 @@ A gestão financeira é um hábito fundamental para o bem-estar econômico de lo
 Assim, a aplicação vem como resposta buscando solucionar de maneira simples e eficaz, a forma como o usuário se relaciona com suas despesas, receitas e investimentos. Além também, de garantir que tenham uma visão clara e realista de como andam suas finanças, permitindo que sejam feitas escolhas melhor informadas na busca por seus objetivos financeiros.
 
 ## Problema
-Acessibilidade
+» Acessibilidade
 Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
 
 Déficit financeiro
