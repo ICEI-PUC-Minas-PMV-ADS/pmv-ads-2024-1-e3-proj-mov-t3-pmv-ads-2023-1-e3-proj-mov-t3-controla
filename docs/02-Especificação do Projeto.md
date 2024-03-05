@@ -1,44 +1,90 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A equipe realizou pesquisas e entrevistas com potenciais usuários da aplicação visando traçar quais problemas o software resolverá. A partir disso, os levantamentos foram compilados na forma de _Personas_ e _Histórias de Usuários_, conforme apresentado a seguir.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|BEATRIZ CORDEIRO                 |                                                                                                |
+| -----------------               | ---                                                                                            |
+| Idade: 49 anos                  |	Principais aplicativos: Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter.     |
+| Ocupação: `Analista Financeiro` | Motivações: Família; Busca por conhecimento.. | Objetivos: Seguir evoluindo profissionalmente. |
+| ---                             |	Hobbies: Leitura; Filmes e Séries; Língua Estrangeira; Viagens                                 |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|LEONARDO MACEDO  |     |
+| ----------------- | --- |
+| Idade: 21 anos    |	Principais aplicativos: Streaming; Whatsapp; Instagram; Telegram; YouTube; Twitter; Discord. |
+| Ocupação: `Suporte` `Estudante de SI` | Motivações: Amigos; Tecnologia. | Objetivos: Trabalhar como gestor em tecnologia (gestão de pessoal). |
+|     |	Hobbies: Games online; Filmes e Séries. |
 
-## Histórias de Usuários
+|LUCIANO MOTTA  |     |
+| ----------------- | --- |
+| Idade: 30 anos    |	Principais aplicativos: Streaming; Whatsapp; Instagram; YouTube. |
+| Ocupação: `Bombeiro Militar` | Motivações: Atividades Físicas; Família. | Objetivos: Ter controle sobre o próprio tempo. |
+|     |	Hobbies: Crossfit; Filmes e Séries; Viagens. | 
+
+
+## Histórias de usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                     |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------------------------- |----------------------------------------|
+|Usuário do sistema  | Cadastrar minhas despesas mensais                      | saber quanto devo poupar dos meus rendimentos mensais para que as despesas sejam satisfeitas. |
+|Usuário do sistema  | Cadastrar uma compra futura                            | planejar e saber quanto devo poupar mensalmente. |
+|Usuário do sistema  | Cadastrar meus investimentos                           | entender e acompanhar onde, como e quanto do meu patrimônio está investido. |
+|Usuário do sistema  | Cadastrar minhas despesas dinâmicas mensais            | entender e classificar qual a média das minhas despesas com combustível, por exemplo. |
+|Usuário do sistema  | Cadastrar minha despesas imprevistas                   | prever e planejar possíveis gastos excedentes mensais. |
+|Usuário do sistema  | Receber dicas e lembretes de gerenciamento financeiro  | manter uma vida financeira controlada e saudável. |
+|Usuário do sistema  | Administrar o dinheiro para garantir aposentadoria     | ter a segurança da aposentadoria privada. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## Requisitos
+
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+
+### Requisitos Funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|-------------------|-----------------------------------------|----|
+|`RF-01`| Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). | `ALTA` | 
+|`RF-02`| Permitir que o usuário registre suas **despesas esporádicas** (corte de cabelo, jantar em restaurante, passeio no parque de diversões, etc.).  | `ALTA` |
+|`RF-03`| Permitir que o usuário registre suas **despesas com “prazo de validade”** (compras parceladas, financiamentos, etc). | `ALTA` | 
+|`RF-04`| Permitir que o usuário registre uma **meta de gastos** (seja ela semanal, mensal ou anual).   | `ALTA` |
+|`RF-05`| Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.). | `ALTA` | 
+|`RF-06`| Permitir que o usuário registre suas **receitas esporádicas** (dividendos, rendimentos, participação nos lucros, etc.).   | `ALTA` |
+|`RF-07`| Permitir que o usuário registre suas **receitas com “prazo de validade”** (vendas parceladas, etc.). | `ALTA` | 
+|`RF-08`| Permitir que o usuário registre seus **investimentos** (Títulos de renda fixa, títulos de renda variável, etc.).   | `ALTA` |
+|`RF-09`| Permitir que o usuário faça um **cadastro com login e senha**. | `ALTA` | 
+|`RF-10`| Permitir que o usuário registre **despesas imprevistas** (veterinário, hospital, medicamentos, etc.).   | `MÉDIA` |
+|`RF-11`| Permitir que o usuário especifique em seu cadastro qual o **motivo** pelo qual ele está utilizando a aplicação. (gerenciamento financeiro, dívidas, controle de investimentos, etc.). | `MÉDIA` | 
+|`RF-12`| Exibir **notificações (pop-ups)** com dicas para uma vida financeira mais saudável.   | `MÉDIA` |
+|`RF-13`| Permitir que o usuário opte pelo **“DarkMode”** | `BAIXA` | 
+|`RF-14`| Permitir que a página de registros seja **customizável** conforme as necessidades do usuário.   | `BAIXA` |
+|`RF-15`| Exibir **notificações** nos aparelhos móveis. | `BAIXA` | 
+|`RF-16`| Permitir que o usuário faça a **importação do seu extrato na extensão .csv**   | `BAIXA` |
+
+
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|`RNF-01`| A aplicação deve manter o padrão de desempenho mínimo — definido pela equipe — em qualquer sistema de acesso: Browser, Smartphone ou Tablet.| `MÉDIA` |
+|`RNF-02`| O sistema deve permanecer disponível X% do tempo, a fim de que esteja disponível sempre que o usuário necessitar. | `MÉDIA` | 
+|`RNF-03`| O sistema deve ser acessível e de fácil usabilidade pelo usuário. | `BAIXA` | 
+|`RNF-04`| O sistema deve ser responsivo em qualquer sistema de acesso: Browser, Smartphone ou Tablet | `ALTA` | 
+|`RNF-05`| O sistema deve ser de fácil manutenibilidade | `MÉDIA` | 
+
+## Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| A aplicação deve se restringir às tecnologias de Front-End.|
+|03| A equipe não pode contratar nem delegar funções à terceiros.|
+## Personas
 
 ## Modelagem do Processo de Negócio 
 
@@ -113,15 +159,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+
+
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
