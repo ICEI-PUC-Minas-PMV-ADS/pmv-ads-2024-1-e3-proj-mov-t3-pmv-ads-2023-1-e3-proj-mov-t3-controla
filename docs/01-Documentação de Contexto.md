@@ -5,17 +5,17 @@ Assim, a aplicação vem como resposta buscando solucionar de maneira simples e 
 
 ## Problema
 » Acessibilidade
-Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
+» Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
 
-Déficit financeiro
-Despesas mensais superiores aos rendimentos;
+» Déficit financeiro
+» Despesas mensais superiores aos rendimentos;
 
-Desordem econômica
-Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
-Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
+» Desordem econômica
+» Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
+» Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
 
-Estruturação financeira
-Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
+» Estruturação financeira
+» Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -24,38 +24,46 @@ Dificuldades no planejamento de grandes despesas (viagens, compras, financiament
 
 ## Objetivos
 
-Acessibilidade
-Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
+Diretrizes e Objetivos
 
-Déficit financeiro
-Despesas mensais superiores aos rendimentos;
+A aplicação busca proporcionar uma ferramenta digital acessível, ágil e objetiva a seus usuários, sendo capaz de simplificar e auxiliar na gestão cotidiana de suas finanças. Além disso, a aplicação tem como objetivo contribuir para a educação e saúde financeira de seus usuários.
 
-Desordem econômica
-Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
-Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
+»  Disseminar conceitos de educação financeira;
 
-Estruturação financeira
-Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
+»  Melhorar a relação de seus usuários com suas finanças;
+
+»  Contribuir para a saúde financeira de seus usuários;
+
+»  Constituir uma plataforma acessível à todas as camadas da sociedade;
+
+»  Constituir uma plataforma acessível em computadores e dispositivos móveis;
+
+»  Desenvolver uma plataforma segura e de fácil utilização;
+
+»  Desenvolver uma plataforma escalável e de fácil manutenção.
 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+No Brasil, o currículo obrigatório escolar não inclui a educação financeira em seu portfólio, e princípios econômicos básicos como “juros compostos”, por exemplo, ainda são conceitos distantes para grande parte da população. Além disso, o gerenciamento financeiro pessoal não é um hábito comum aos brasileiros, o que contribui para o descontrole das finanças e consequente endividamento pessoal.
+	Segundo estudos feitos nas 27 capitais do Brasil pelo Serviço de Proteção ao Crédito (SPC Brasil) em conjunto com a Confederação Nacional de Dirigentes Lojistas (CNDL) em 2017, cerca de 55% dos brasileiros fazem alguma forma de controle de suas finanças. A pesquisa aponta que a principal forma relatada são as anotações em papel (28%). 
+Ao final de 2018, a pesquisa foi atualizada e concluiu que o número de brasileiros que fazem alguma forma de controle financeiro subiu para 63%. O principal meio de controle, porém, permanece sendo o papel, utilizado por 33% dos entrevistados.
+Recentemente, o endividamento das famílias brasileiras cresceu drasticamente. Conforme apurado em uma matéria da BBC Brasil, em 2022, a cada 100 famílias brasileiras, 78 estavam endividadas. O patamar é o mais elevado da série histórica da Peic, com início em 2010. Entre 2020 e 2022, a proporção de famílias endividadas passou de 66,5% para 77,9%, uma alta de 11,4 pontos percentuais.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O endividamento é decorrente do empobrecimento da população assim como do descolamento entre a remuneração e os gastos dessas famílias. A ferramenta proposta aqui não é a solução ao empobrecimento, mas pode contribuir para que as famílias contem com um mecanismo de planejamento de forma a tentar conciliar a médio e longo prazo suas receitas e duas despesas.
+	Por conseguinte, a aplicação tem como objetivo auxiliar os usuários no gerenciamento de suas finanças através de uma plataforma simples e eficaz, servindo como uma alternativa acessível tanto para o crescente número de pessoas interessadas no gerenciamento financeiro pessoal, quanto para os que já fazem algum controle e que pretendem migrar do papel para o digital.
+Entre outras funções, a aplicação permitirá, por exemplo, que seus usuários vejam com transparência e objetividade onde o dinheiro está sendo empregado, proporcionando mais clareza na identificação de despesas necessárias e desnecessárias, contribuindo para tomadas de decisões financeiras mais inteligentes, o que por sua vez, contribui para uma vida econômica mais sólida e sustentável.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+	A educação financeira é uma forma de conhecimento útil a toda e qualquer sociedade, independente da fase da vida. Entretanto, grande parte das pessoas inicia sua vida financeira e profissional na faixa dos 18 anos de idade, e se aposentam próximo dos 65 anos. Assim, a aplicação tem como público-alvo qualquer pessoa com idade entre 18 e 65 anos, adultos com vida financeira ativa, tanto em construção, quanto em consolidação para a aposentadoria.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
