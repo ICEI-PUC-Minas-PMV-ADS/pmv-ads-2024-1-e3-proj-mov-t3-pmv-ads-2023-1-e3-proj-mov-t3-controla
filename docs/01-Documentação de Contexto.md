@@ -5,16 +5,21 @@ Assim, a aplicação vem como resposta buscando solucionar de maneira simples e 
 
 ## Problema
 » Acessibilidade
+
 » Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
 
 » Déficit financeiro
+
 » Despesas mensais superiores aos rendimentos;
 
 » Desordem econômica
+
 » Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
+
 » Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
 
 » Estruturação financeira
+
 » Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
 
 > **Links Úteis**:
@@ -62,8 +67,7 @@ Entre outras funções, a aplicação permitirá, por exemplo, que seus usuário
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
-
-	A educação financeira é uma forma de conhecimento útil a toda e qualquer sociedade, independente da fase da vida. Entretanto, grande parte das pessoas inicia sua vida financeira e profissional na faixa dos 18 anos de idade, e se aposentam próximo dos 65 anos. Assim, a aplicação tem como público-alvo qualquer pessoa com idade entre 18 e 65 anos, adultos com vida financeira ativa, tanto em construção, quanto em consolidação para a aposentadoria.
+A educação financeira é uma forma de conhecimento útil a toda e qualquer sociedade, independente da fase da vida. Entretanto, grande parte das pessoas inicia sua vida financeira e profissional na faixa dos 18 anos de idade, e se aposentam próximo dos 65 anos. Assim, a aplicação tem como público-alvo qualquer pessoa com idade entre 18 e 65 anos, adultos com vida financeira ativa, tanto em construção, quanto em consolidação para a aposentadoria.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
