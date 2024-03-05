@@ -4,11 +4,18 @@ A gestão financeira é um hábito fundamental para o bem-estar econômico de lo
 Assim, a aplicação vem como resposta buscando solucionar de maneira simples e eficaz, a forma como o usuário se relaciona com suas despesas, receitas e investimentos. Além também, de garantir que tenham uma visão clara e realista de como andam suas finanças, permitindo que sejam feitas escolhas melhor informadas na busca por seus objetivos financeiros.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Acessibilidade
+Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Déficit financeiro
+Despesas mensais superiores aos rendimentos;
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Desordem econômica
+Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
+Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
+
+Estruturação financeira
+Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -17,9 +24,19 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Acessibilidade
+Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Déficit financeiro
+Despesas mensais superiores aos rendimentos;
+
+Desordem econômica
+Dificuldades na identificação do que são despesas necessárias, desnecessárias e temporárias;
+Dificuldades na identificação e acompanhamento de expensas dinâmicas (alimentação, lazer, transporte, investimentos, etc.);
+
+Estruturação financeira
+Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
