@@ -10,13 +10,16 @@
 ## Integrantes
 
 * Carlos Eduardo Dos Santos Lima
+* Erick Patrick de Santana Santos
+* Jaciane Santana dos Santos
 * Lais Barbosa de Oliveira
 * Lucas Oliveira Soares
-* Nome completo do aluno 4
+* Marco Antonio Gil do Amaral Oliveira
 
 ## Orientador
 
-*Orientador: Professor Harison Herman Silva
+* Orientador: Professor Harison Herman Silva
+
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
