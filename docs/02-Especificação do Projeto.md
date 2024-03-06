@@ -190,6 +190,45 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. Com base nisso foi determinado um orçamento anual partindo da concepção do projeto até alguns meses após o lançamento.
 
-![Orçamento](img/02-orcamento.png)
+![gestao-orcamentaria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/63301414/afc43a84-5938-47f9-a943-7539cd63a6e1)
+
+Detalhamento:
+
+Investimento disponível para o Projeto
+- R$ 960.000,00
+
+Controlar os Custos
+- Faixa para variação de orçamento: 5%
+
+Recursos Humanos
+- 6 Profissionais (1 PM, 1 TL, 4 Devs)
+- 1 PM (9000)
+- 1 TL (13000)
+- 1 Dev Junior (3000)
+- 2 Dev Pleno (6000 cada)
+- 1 Dev Senior (10000)
+
+Hardware
+- 6 Notebooks
+- 6 Headsets
+- 6 Mouses
+- 6 Mousepads
+
+Rede
+- 6 planos de internet residencial
+
+Software
+- Gestão de Projetos (GitHub)
+- Versionamento de Código (GitHub)
+- Hospedagem na nuvem (Azure)
+- Comunicação (Discord)
+
+Riscos
+- Aumento do preços de hospedagem
+- Manutenção de dispositivos
+- Compra de novos dispositivos
+- Necessidade de contratação para cumprir prazo
+- Necessidade de upgrade no serviço de rede
+- Sofwares gratuitos deixarem de oferecer serviço nesta modalidade
