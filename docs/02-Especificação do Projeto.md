@@ -82,8 +82,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| A aplicação deve se restringir às tecnologias de Front-End.|
-|03| A equipe não pode contratar nem delegar funções à terceiros.|
+|02| A equipe não pode contratar nem delegar funções à terceiros.|
 
 
 ## Modelagem do Processo de Negócio 
