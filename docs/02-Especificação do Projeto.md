@@ -146,8 +146,6 @@ Consulta saldo.
 O mesmo ocorre em Cadastrar Receitas.
 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
 # Matriz de Rastreabilidade
 
 ![Matriz de Rastreabilidade - E1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/01a896f3-84ad-46f3-bbdf-951d161e0c54)
