@@ -155,9 +155,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-![Matriz de Rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/2d7f3531-917b-46f3-ad2a-f661e4949bfc)
-
-[Matriz de Rastreabilidade - Página1.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/files/14532633/Matriz.de.Rastreabilidade.-.Pagina1.pdf)
+![Matriz de Rastreabilidade - E1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/01a896f3-84ad-46f3-bbdf-951d161e0c54)
 
 
 # Gerenciamento de Projeto
