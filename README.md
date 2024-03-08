@@ -1,6 +1,6 @@
 # CONTROLA FÁCIL
 
-`Análise e Desvolvimetno de Sistemas`
+`Análise e Desvolvimento de Sistemas`
 
 `Eixo 3 -  Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 03 `
 
