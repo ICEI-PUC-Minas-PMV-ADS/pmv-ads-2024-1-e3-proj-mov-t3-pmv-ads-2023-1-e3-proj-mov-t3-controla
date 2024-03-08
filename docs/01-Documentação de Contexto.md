@@ -1,9 +1,11 @@
 # Introdução
 
 A gestão financeira é um hábito fundamental para o bem-estar econômico de longo prazo, seja ele de um indivíduo, uma família, ou mesmo de um negócio. Entretanto, muitas pessoas enfrentam dificuldades na sua relação com o dinheiro. Um dos principais problemas é a falta de conhecimento e habilidades — principalmente no Brasil, onde disciplinas de educação financeira não são amplamente disseminadas — para gerenciar suas finanças de forma eficaz. Isto, por sua vez, pode levar a decisões econômico-financeiras prejudiciais, como gastar mais do que recebe, contração excessiva de dívidas e descontrole das economias para o futuro. Além disso, a falta de organização e acompanhamento de gastos pode tornar difícil a identificação de onde o dinheiro está sendo empregado e onde há oportunidades de economia.
+
 Assim, a aplicação vem como resposta buscando solucionar de maneira simples e eficaz, a forma como o usuário se relaciona com suas despesas, receitas e investimentos. Além também, de garantir que tenham uma visão clara e realista de como andam suas finanças, permitindo que sejam feitas escolhas melhor informadas na busca por seus objetivos financeiros.
 
 ## Problema
+
 » Acessibilidade
 
 » Dúvidas e dificuldades sobre como fazer uma boa gestão de finanças pessoais;
@@ -22,10 +24,6 @@ Assim, a aplicação vem como resposta buscando solucionar de maneira simples e 
 
 » Dificuldades no planejamento de grandes despesas (viagens, compras, financiamentos, etc.).
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -48,29 +46,27 @@ A aplicação busca proporcionar uma ferramenta digital acessível, ágil e obje
 »  Desenvolver uma plataforma escalável e de fácil manutenção.
 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 No Brasil, o currículo obrigatório escolar não inclui a educação financeira em seu portfólio, e princípios econômicos básicos como “juros compostos”, por exemplo, ainda são conceitos distantes para grande parte da população. Além disso, o gerenciamento financeiro pessoal não é um hábito comum aos brasileiros, o que contribui para o descontrole das finanças e consequente endividamento pessoal.
-	Segundo estudos feitos nas 27 capitais do Brasil pelo Serviço de Proteção ao Crédito (SPC Brasil) em conjunto com a Confederação Nacional de Dirigentes Lojistas (CNDL) em 2017, cerca de 55% dos brasileiros fazem alguma forma de controle de suas finanças. A pesquisa aponta que a principal forma relatada são as anotações em papel (28%). 
+
+Segundo estudos feitos nas 27 capitais do Brasil pelo Serviço de Proteção ao Crédito (SPC Brasil) em conjunto com a Confederação Nacional de Dirigentes Lojistas (CNDL) em 2017, cerca de 55% dos brasileiros fazem alguma forma de controle de suas finanças. A pesquisa aponta que a principal forma relatada são as anotações em papel (28%). 
+ 
 Ao final de 2018, a pesquisa foi atualizada e concluiu que o número de brasileiros que fazem alguma forma de controle financeiro subiu para 63%. O principal meio de controle, porém, permanece sendo o papel, utilizado por 33% dos entrevistados.
+
 Recentemente, o endividamento das famílias brasileiras cresceu drasticamente. Conforme apurado em uma matéria da BBC Brasil, em 2022, a cada 100 famílias brasileiras, 78 estavam endividadas. O patamar é o mais elevado da série histórica da Peic, com início em 2010. Entre 2020 e 2022, a proporção de famílias endividadas passou de 66,5% para 77,9%, uma alta de 11,4 pontos percentuais.
 
+![Pessoas Endividadas BBC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/6a74ded3-614c-4fc4-8aa1-bda42d3faf95)
+
+
 O endividamento é decorrente do empobrecimento da população assim como do descolamento entre a remuneração e os gastos dessas famílias. A ferramenta proposta aqui não é a solução ao empobrecimento, mas pode contribuir para que as famílias contem com um mecanismo de planejamento de forma a tentar conciliar a médio e longo prazo suas receitas e duas despesas.
-	Por conseguinte, a aplicação tem como objetivo auxiliar os usuários no gerenciamento de suas finanças através de uma plataforma simples e eficaz, servindo como uma alternativa acessível tanto para o crescente número de pessoas interessadas no gerenciamento financeiro pessoal, quanto para os que já fazem algum controle e que pretendem migrar do papel para o digital.
+
+Por conseguinte, a aplicação tem como objetivo auxiliar os usuários no gerenciamento de suas finanças através de uma plataforma simples e eficaz, servindo como uma alternativa acessível tanto para o crescente número de pessoas interessadas no gerenciamento financeiro pessoal, quanto para os que já fazem algum controle e que pretendem migrar do papel para o digital.
+
 Entre outras funções, a aplicação permitirá, por exemplo, que seus usuários vejam com transparência e objetividade onde o dinheiro está sendo empregado, proporcionando mais clareza na identificação de despesas necessárias e desnecessárias, contribuindo para tomadas de decisões financeiras mais inteligentes, o que por sua vez, contribui para uma vida econômica mais sólida e sustentável.
 
 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
+
 A educação financeira é uma forma de conhecimento útil a toda e qualquer sociedade, independente da fase da vida. Entretanto, grande parte das pessoas inicia sua vida financeira e profissional na faixa dos 18 anos de idade, e se aposentam próximo dos 65 anos. Assim, a aplicação tem como público-alvo qualquer pessoa com idade entre 18 e 65 anos, adultos com vida financeira ativa, tanto em construção, quanto em consolidação para a aposentadoria.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
