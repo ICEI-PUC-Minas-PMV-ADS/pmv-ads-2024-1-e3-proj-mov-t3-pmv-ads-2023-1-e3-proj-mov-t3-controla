@@ -148,6 +148,8 @@ O mesmo ocorre em Cadastrar Receitas.
 
 # Matriz de Rastreabilidade
 
+A equipe desenvolveu a matriz de rastreabilidade abaixo, visando manter a integração e o controle de eventuais mudanças no escopo da aplicação:
+
 ![Matriz de Rastreabilidade - E1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/01a896f3-84ad-46f3-bbdf-951d161e0c54)
 
 
