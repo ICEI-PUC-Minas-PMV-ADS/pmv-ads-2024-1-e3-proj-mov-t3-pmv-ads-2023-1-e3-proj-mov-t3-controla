@@ -1,14 +1,18 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A equipe de desenvolvimento definiu a metodologia contemplando as capacidades e potencialidades de cada integrante, conforme apresentado nos tópicos a seguir.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+# Relação de Ambientes de Trabalho
 
-## Relação de Ambientes de Trabalho
+As plataformas utilizadas para o desenvolvimento de artefatos da aplicação foram Figma, Trello e GitHub. Além disso, para as comunicações e reuniões de equipe, foi selecionada a plataforma Discord.
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| AMBIENTE                          | PLATAFORMA      | LINK DE ACESSO                                                                                                                  |
+| --------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Repositório de Código-fonte       | GitHub          | [Controla Fácil - Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla) |
+| Projeto de Interface e Wireframes | Figma           | A COMPLEMENTAR                   |
+| Gerenciamento do Projeto: Kanban GitHub       | GitHub Projects | [Controla Fácil - Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/888) |
+| Comunicação e Reuniões | Microsoft Teams | [Turma 3](https://teams.microsoft.com/l/channel/19%3AlnhsJXzg8ZZ7OPU6Ar5faFHfUiy4VfTierHPoseLZBA1%40thread.tacv2/General?groupId=aaf7833b-61f6-4e14-9fcf-adc86c863840&tenantId=) |
+
 
 ## Controle de Versão
 
