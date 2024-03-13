@@ -65,6 +65,8 @@ Para a organização e distribuição das tarefas do projeto, a equipe fará uso
 - `In progress`: Lista das tarefas iniciadas.
   
 - `Done`: Lista de tarefas finalizadas.
+
+![Githubprojects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/c4becb14-700e-4cc8-805a-312f00826aaf)
  
 ### Ferramentas
 
