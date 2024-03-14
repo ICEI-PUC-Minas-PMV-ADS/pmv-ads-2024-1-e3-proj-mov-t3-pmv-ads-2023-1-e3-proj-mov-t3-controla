@@ -41,16 +41,22 @@ etiquetas:
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-- `Scrum Master`: Lucas Oliveira Soares
-- `Product Owner`: Carlos Eduardo Dos Santos Lima
-- `Equipe de Desenvolvimento`: Erick Patrick de Santana Santos | Marco Antonio Gil do Amaral Oliveira
-- `Equipe de Design`: Lais Barbosa de Oliveira | Jaciane Santana Dos Santos
-
+`Scrum Master`: 
+- Lucas Oliveira Soares
   
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+ `Product Owner`:
+- Carlos Eduardo Dos Santos Lima
+  
+ `Equipe de Desenvolvimento`:
+- Erick Patrick de Santana Santos
+  
+- Marco Antonio Gil do Amaral Oliveira
+  
+ `Equipe de Design`:
+- Lais Barbosa de Oliveira
+  
+- Jaciane Santana Dos Santos
+
 
 ### Processo
 
