@@ -21,7 +21,7 @@
 
 ## Orientador
 
-* Orientador: Professor Harison Herman Silva
+* Professor Harison Herman Silva
 
 ## Instruções de utilização
 
