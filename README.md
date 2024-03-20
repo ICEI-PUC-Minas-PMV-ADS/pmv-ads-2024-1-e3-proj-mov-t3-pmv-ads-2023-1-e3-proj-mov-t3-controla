@@ -6,7 +6,9 @@
 
 `2024/1`
 
-![LOGO - CONTROLA FÁCIL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/c1c81806-0afb-4c2b-9e25-189eb534eb6b)
+![Design_sem_nome__1_-removebg-preview](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/5ffc9312-c870-4988-b916-a941883dd6f1)
+
+
 
 `Projeto`: Gestor de finanças pessoais
 
