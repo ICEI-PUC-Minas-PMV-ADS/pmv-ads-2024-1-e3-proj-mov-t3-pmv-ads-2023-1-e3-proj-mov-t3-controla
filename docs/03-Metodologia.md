@@ -1,4 +1,4 @@
-# Metodologia
+# <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/a88604f1-0586-4f22-9c4a-6b636616e640" width = 40> Metodologia
 
 A equipe de desenvolvimento definiu a metodologia contemplando as capacidades e potencialidades de cada integrante, conforme apresentado nos tópicos a seguir.
 
