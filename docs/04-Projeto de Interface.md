@@ -22,11 +22,15 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-** Wireframes Projeto de Interface **
+**Wireframes Projeto de Interface  Desktop**
 
 ![tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cb969572-978a-4a06-b1b6-29d9a2f2cf93)
 
-**tela 1**
+**Wireframe Projeto de Interface App**
+
+![Screenshot 2024-03-25 125233](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/04e24ee1-b48e-45a3-9a58-71e7248c1ac5)
+
+**tela1**
 
 
 ![tela2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/9340517d-eeb3-475f-a9f5-6e09f89ef0ce)
@@ -35,7 +39,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ![Screenshot 2024-03-25 124403](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/16c6477f-91ae-4cb9-9f77-1da07b59a9c8)
 
-https://www.figma.com/file/ngYOjjaZ1sVyqRlGG5ywzJ/Untitled?type=design&node-id=0%3A1&mode=dev&t=gcZCpFXmU45n5Htj-1
 
 O Protótipo de Design de Interface encontra-se no Figma ao clicar no link abaixo;
 https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=1-2&t=7BCWDjdXlJZonQ8g-1&scaling=scale-down&page-id=0%3A1&mode=design
