@@ -21,6 +21,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
+
+** Wireframes Projeto de Intercafe Desktop**
+
+
+https://www.figma.com/file/ngYOjjaZ1sVyqRlGG5ywzJ/Untitled?type=design&node-id=0%3A1&mode=dev&t=gcZCpFXmU45n5Htj-1
+
 O Protótipo de Design de Interface encontra-se no Figma ao clicar no link abaixo;
 https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=1-2&t=7BCWDjdXlJZonQ8g-1&scaling=scale-down&page-id=0%3A1&mode=design
 
