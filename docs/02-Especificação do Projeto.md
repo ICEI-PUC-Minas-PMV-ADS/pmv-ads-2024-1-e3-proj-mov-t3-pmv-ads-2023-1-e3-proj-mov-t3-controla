@@ -1,4 +1,4 @@
-# Especificações do Projeto
+#  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/a88604f1-0586-4f22-9c4a-6b636616e640" width = 40> Especificações do Projeto
 
 A equipe realizou pesquisas e entrevistas com potenciais usuários da aplicação visando traçar quais problemas o software resolverá. A partir disso, os levantamentos foram compilados na forma de _Personas_ e _Histórias de Usuários_, conforme apresentado a seguir.
 
@@ -109,14 +109,17 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ![Processo 2](img/02-bpmn-proc2.png)
 
-## Indicadores de Desempenho
+##  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/a88604f1-0586-4f22-9c4a-6b636616e640" width = 25> Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Tendo em vista que os processos atuais estão sempre evoluindo, é imperativo que o desempenho do Controla Fácil seja acompanhado de forma contínua. Para isto, a tabela a seguir lista alguns dos indicadores de desempenho a serem analisados:
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+|INDICADOR|OBJETIVOS|DESCRIÇÃO|CÁLCULO|FONTE DADOS|PERSPECTIVA|
+|-------------|-------------|-------------|-------------|-------------|-------------|
+|Número de downloads realizados|Medir o nível de interesse gerado pelo aplicativo|Quantidade de downloads realizados na loja eletrônica|Somatório total de downloads|Loja eletrônica|Número de usuários|
+|Nível de satisfação|Analisar os índices de satisfação da aplicação|Entender os índices de aceitação alcançados pelo aplicativo|Nota média do app nas lojas eletrônicas|Loja eletrônica|Aprimoramento|
+|Reclamações|Verificar quais os principais pontos negativos do aplicativo|Entender e atuar sobre as reclamações apresentadas pelos usuários|Quantidade e qualidade das reclamações|Loja eletrônica e canais de comunicação do Controla Fácil|Aprimorar os pontos negativos da aplicação|
+|Elogios|Verificar quais os principais pontos positivos do aplicativo|Entender e potencializar as qualidades da aplicação apresentadas pelos usuários|Quantidade e qualidade dos elogios|Loja eletrônica e canais de comunicação do Controla Fácil|Potencializar as funcionalidades valorizadas pelos usuários|
+|Periodicidade de acessos|Analisar o tempo de inatividade dos usuários|Entender os padrões de acesso da aplicação|Média de tempo entre acessos do usuário|Banco de dados da aplicação|Aprimoramento e melhoria de engajamento da aplicação|
 
 
 ## Diagrama de Casos de Uso
