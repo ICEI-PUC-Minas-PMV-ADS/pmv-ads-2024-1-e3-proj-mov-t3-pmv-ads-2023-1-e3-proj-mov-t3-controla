@@ -24,11 +24,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 **Wireframes Projeto de Interface  Desktop**
 
-![tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cb969572-978a-4a06-b1b6-29d9a2f2cf93)
+![Screenshot 2024-03-25 125233](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/04e24ee1-b48e-45a3-9a58-71e7248c1ac5)
 
 **Wireframe Projeto de Interface App**
 
 ![Screenshot 2024-03-25 125233](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/04e24ee1-b48e-45a3-9a58-71e7248c1ac5)
+
+![tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cb969572-978a-4a06-b1b6-29d9a2f2cf93)
 
 **tela1**
 
