@@ -22,7 +22,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-** Wireframes Projeto de Intercafe Desktop**
+** Wireframes Projeto de Interface Desktop**
+
+https://www.figma.com/file/ngYOjjaZ1sVyqRlGG5ywzJ/Untitled?type=design&node-id=2-8&mode=dev
 
 
 https://www.figma.com/file/ngYOjjaZ1sVyqRlGG5ywzJ/Untitled?type=design&node-id=0%3A1&mode=dev&t=gcZCpFXmU45n5Htj-1
