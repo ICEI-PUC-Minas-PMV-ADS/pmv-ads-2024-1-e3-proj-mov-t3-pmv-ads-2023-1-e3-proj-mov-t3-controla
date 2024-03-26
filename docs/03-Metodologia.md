@@ -81,7 +81,7 @@ A equipe selecionou as seguintes ferramentas para o desenvolvimento da aplicaç�
 | Ferramenta | Descrição | 
 | --- | --- | 
 | VS Code    | Código | 
-| React Native | Linguagem utilizada |
+| React Native | Framework |
 | Microsoft Teams, Whatsapp | Comunicação | 
 | Figma | Wireframes |
 |  Draw.io | Diagramas |
