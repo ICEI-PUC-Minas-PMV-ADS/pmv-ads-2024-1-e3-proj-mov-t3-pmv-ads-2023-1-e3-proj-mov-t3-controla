@@ -9,7 +9,7 @@ As plataformas utilizadas para o desenvolvimento de artefatos da aplicação for
 | AMBIENTE                          | PLATAFORMA      | LINK DE ACESSO                                                                                                                  |
 | --------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Repositório de Código-fonte       | GitHub          | [Controla Fácil - Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla) |
-| Projeto de Interface e Wireframes | Figma           | A COMPLEMENTAR                   |
+| Projeto de Interface e Wireframes | Figma           | [Protótipo Controla Fácil - Disp. Móvel](https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=1-2&t=Gk3Z6hkeORifuEXg-1&scaling=scale-down&page-id=0%3A1&mode=design)                   |
 | Gerenciamento do Projeto: Kanban GitHub       | GitHub Projects | [Controla Fácil - Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/888) |
 | Comunicação e Reuniões | Microsoft Teams | [Turma 3](https://teams.microsoft.com/l/channel/19%3AlnhsJXzg8ZZ7OPU6Ar5faFHfUiy4VfTierHPoseLZBA1%40thread.tacv2/General?groupId=aaf7833b-61f6-4e14-9fcf-adc86c863840&tenantId=) |
 
