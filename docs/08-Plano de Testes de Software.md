@@ -21,6 +21,25 @@ A seguir os cenários de teste que atendem aos requisitos e que serão utilizado
 | CT-13 | Login | É esperado que seja exibido opção da funcionalidade "Esqueci minha senha" e ao clicar seja redirecionado para tela de recuperação de senha. |
 | CT-14 | Esqueci minha senha | Ao preencher o campo de e-mail e clicar no botão "Recuperar senha", o usuário deve receber e-mail com senha e ser redirecionado para tela de Login. |
 | CT-15 | Home | É esperado que seja exibido todas as opções de funcionalidades do app. |
+| CT-16 | Minha Carteira | XXX. |
+| CT-16 | Despesas | XXX. |
+| CT-16 | Despesas | É esperado que seja exibido todas as despesas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova despesa. |
+| CT-16 | Despesas | É esperado que ao clicar em uma despesa deve visualizar detalhes desta despesa. |
+| CT-16 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
+| CT-16 | Despesas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Despesas. |
+| CT-16 | Despesas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Despesas. |
+| CT-16 | Cadastro de Despesas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua despesa salva e ser redirecionado para tela de Despesas. |
+| CT-16 | Edição de Despesas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua despesa editada salva e ser redirecionado para tela de Despesas. |
+| CT-16 | Receitas | XXX. |
+| CT-16 | Receitas | É esperado que seja exibido todas as receitas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova receita. |
+| CT-16 | Receitas | É esperado que ao clicar em uma receita deve visualizar detalhes desta receita. |
+| CT-16 | Receitas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a receita deve ser deletada do sistema. |
+| CT-16 | Receitas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Receitas. |
+| CT-16 | Receitas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Receitas. |
+| CT-16 | Cadastro de Receitas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua receita salva e ser redirecionado para tela de Receitas. |
+| CT-16 | Edição de Receitas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua receita editada salva e ser redirecionado para tela de Receitas. |
+| CT-16 | Investimentos | XXX. |
+
 
 ## Ferramentas de Testes (Opcional)
 
