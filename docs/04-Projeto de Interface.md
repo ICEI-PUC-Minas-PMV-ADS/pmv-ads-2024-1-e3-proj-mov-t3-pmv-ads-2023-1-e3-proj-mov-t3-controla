@@ -28,7 +28,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 **Wireframe Projeto de Interface App**
 
-![Screenshot 2024-03-25 125233](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/04e24ee1-b48e-45a3-9a58-71e7248c1ac5)
 
 ![tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cb969572-978a-4a06-b1b6-29d9a2f2cf93)
 
@@ -44,6 +43,18 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 O Protótipo de Design de Interface encontra-se no Figma ao clicar no link abaixo;
 https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=1-2&t=7BCWDjdXlJZonQ8g-1&scaling=scale-down&page-id=0%3A1&mode=design
+
+##  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/a88604f1-0586-4f22-9c4a-6b636616e640" width = 25> Indicadores de Desempenho
+
+Tendo em vista que os processos atuais estão sempre evoluindo, é imperativo que o desempenho do Controla Fácil seja acompanhado de forma contínua. Para isto, a tabela a seguir lista alguns dos indicadores de desempenho a serem analisados:
+
+|INDICADOR|OBJETIVOS|DESCRIÇÃO|CÁLCULO|FONTE DADOS|PERSPECTIVA|
+|-------------|-------------|-------------|-------------|-------------|-------------|
+|Número de downloads realizados|Medir o nível de interesse gerado pelo aplicativo|Quantidade de downloads realizados na loja eletrônica|Somatório total de downloads|Loja eletrônica|Número de usuários|
+|Nível de satisfação|Analisar os índices de satisfação da aplicação|Entender os índices de aceitação alcançados pelo aplicativo|Nota média do app nas lojas eletrônicas|Loja eletrônica|Aprimoramento|
+|Reclamações|Verificar quais os principais pontos negativos do aplicativo|Entender e atuar sobre as reclamações apresentadas pelos usuários|Quantidade e qualidade das reclamações|Loja eletrônica e canais de comunicação do Controla Fácil|Aprimorar os pontos negativos da aplicação|
+|Elogios|Verificar quais os principais pontos positivos do aplicativo|Entender e potencializar as qualidades da aplicação apresentadas pelos usuários|Quantidade e qualidade dos elogios|Loja eletrônica e canais de comunicação do Controla Fácil|Potencializar as funcionalidades valorizadas pelos usuários|
+|Periodicidade de acessos|Analisar o tempo de inatividade dos usuários|Entender os padrões de acesso da aplicação|Média de tempo entre acessos do usuário|Banco de dados da aplicação|Aprimoramento e melhoria de engajamento da aplicação|
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
