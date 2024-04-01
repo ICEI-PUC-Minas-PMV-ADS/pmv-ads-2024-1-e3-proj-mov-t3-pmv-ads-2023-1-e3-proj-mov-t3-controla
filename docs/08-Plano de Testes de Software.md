@@ -22,23 +22,26 @@ A seguir os cenários de teste que atendem aos requisitos e que serão utilizado
 | CT-14 | Esqueci minha senha | Ao preencher o campo de e-mail e clicar no botão "Recuperar senha", o usuário deve receber e-mail com senha e ser redirecionado para tela de Login. |
 | CT-15 | Home | É esperado que seja exibido todas as opções de funcionalidades do app. |
 | CT-16 | Minha Carteira | XXX. |
-| CT-16 | Despesas | XXX. |
-| CT-16 | Despesas | É esperado que seja exibido todas as despesas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova despesa. |
-| CT-16 | Despesas | É esperado que ao clicar em uma despesa deve visualizar detalhes desta despesa. |
-| CT-16 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
-| CT-16 | Despesas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Despesas. |
-| CT-16 | Despesas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Despesas. |
-| CT-16 | Cadastro de Despesas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua despesa salva e ser redirecionado para tela de Despesas. |
-| CT-16 | Edição de Despesas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua despesa editada salva e ser redirecionado para tela de Despesas. |
-| CT-16 | Receitas | XXX. |
-| CT-16 | Receitas | É esperado que seja exibido todas as receitas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova receita. |
-| CT-16 | Receitas | É esperado que ao clicar em uma receita deve visualizar detalhes desta receita. |
-| CT-16 | Receitas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a receita deve ser deletada do sistema. |
-| CT-16 | Receitas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Receitas. |
-| CT-16 | Receitas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Receitas. |
-| CT-16 | Cadastro de Receitas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua receita salva e ser redirecionado para tela de Receitas. |
-| CT-16 | Edição de Receitas | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua receita editada salva e ser redirecionado para tela de Receitas. |
-| CT-16 | Investimentos | XXX. |
+| CT-17 | Movimentações | É esperado que seja exibido todas as movimentações do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova movimentação. |
+| CT-18 | Movimentações | É esperado que seja possível filtrar as movimentações por tipo (Despesas, Receitas ou Investimentos). |
+| CT-19 | Movimentações | É esperado que ao clicar em uma movimentação deve visualizar detalhes desta movimentação. |
+| CT-20 | Movimentações | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a movimentação deve ser deletada do sistema. |
+| CT-21 | Movimentações | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-22 | Movimentações | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-23 | Cadastro de Movimentações | É esperado que tenha classificações para tipos de movimentações (Despesas, Receitas ou Investimentos) e de recorrência (fixa, programada ou única). |
+| CT-24 | Cadastro de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação salva e ser redirecionado para tela de Movimentações. |
+| CT-25 | Edição de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação editada salva e ser redirecionado para tela de Movimentações. |
+| CT-26 | Despesas | É esperado que seja exibido todas as despesas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova despesa. |
+| CT-27 | Despesas | É esperado que ao clicar em uma despesa deve visualizar detalhes desta despesa. |
+| CT-28 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
+| CT-29 | Despesas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-30 | Despesas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-31 | Receitas | É esperado que seja exibido todas as receitas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova receita. |
+| CT-32 | Receitas | É esperado que ao clicar em uma receita deve visualizar detalhes desta receita. |
+| CT-33 | Receitas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a receita deve ser deletada do sistema. |
+| CT-34 | Receitas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-35 | Receitas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-36 | Investimentos | XXX. |
 
 
 ## Ferramentas de Testes (Opcional)
