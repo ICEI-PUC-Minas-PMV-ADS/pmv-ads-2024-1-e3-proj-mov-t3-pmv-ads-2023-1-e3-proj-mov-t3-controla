@@ -1,12 +1,21 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+Este será o molde padrão dentro do aplicativo, utilizado pelos Devs durante a construção da identidade visual do App:
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![Divisao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/110196430/ee42675a-da96-46f5-9907-d4f5f5595a0a)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+## Propriedades
+
+Cada aba conterá, idealmente, as seguintes características:
+
+![Propriedades](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/110196430/eba347cf-27c2-4198-8c69-3083e32f9171)
+
+#### Legenda
+
+ * **1 -** O Logo, de maneira reduzida.
+ * **2 -** O Nome do usuário logado.
+ * **3 -** O Menu de Navegação dentro da funcionalidade utilizada
+ * **4 -** O conteúdo exibido pelo App
+ * **5 -** O Menu de Navegação do proprio App, onde será possível navegar pelas funcionalidades
+
+<a href="[src/README.md](https://www.figma.com/file/dmPOp3PTNqjuZ4qk3MGGDl/Untitled?type=design&node-id=0%3A1&mode=design&t=CsQgXXskXpw0smzW-1)"> Clique aqui para acessar ao Figma</a>
