@@ -29,22 +29,25 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 **Wireframe Projeto de Interface App**
 
+**Tela Login**
 
-![tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cb969572-978a-4a06-b1b6-29d9a2f2cf93)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/6e53a71b-2a1f-4f53-a976-6b5810dd9028)
 
-**tela1**
+**Tela Cadastro**
+
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/b4c17f67-9c9b-4330-8de0-9e94ed17a3c0)
+
+**Tela Inicial**
+
+![inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/5ca270a8-39be-42c0-9b2f-074cec460a50)
+
+**Carteira**
+
+![carteira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/b48d027f-b768-407e-a4eb-50df5abe5c6d)
 
 
-![tela2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/9340517d-eeb3-475f-a9f5-6e09f89ef0ce)
-
-** TELA 2**
-
-![Screenshot 2024-03-25 124403](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/16c6477f-91ae-4cb9-9f77-1da07b59a9c8)
-
-
-O Protótipo de Design de Interface encontra-se no Figma ao clicar no link abaixo;
-https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=1-2&t=7BCWDjdXlJZonQ8g-1&scaling=scale-down&page-id=0%3A1&mode=design
-
+**O Protótipo Design de Interface encontra-se no Figma ao clicar no link abaixo;**
+https://www.figma.com/proto/5Fszz3mQBkmDlvBVYSF6jF/Untitled?type=design&node-id=52-17&t=gHp5gt14p73hWUtr-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=52%3A17&mode=design
 ##  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/a88604f1-0586-4f22-9c4a-6b636616e640" width = 25> Indicadores de Desempenho
 
 Tendo em vista que os processos atuais estão sempre evoluindo, é imperativo que o desempenho do Controla Fácil seja acompanhado de forma contínua. Para isto, a tabela a seguir lista alguns dos indicadores de desempenho a serem analisados:
