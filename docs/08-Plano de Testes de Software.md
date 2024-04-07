@@ -1,8 +1,16 @@
 # Plano de Testes de Software
+O teste de software permite avaliar a qualidade do software e ajuda a reduzir o risco de falha do software em operação. A partir da especificação do sistema será avaliada a qualidade das funcionalidades e a integração entre si.
+
+### Objetivos Gerais 
+
+    1. Encontrar defeitos antes de disponibilizar para o usuário final;
+    2. Evitar defeitos em produção;
+    3. Verificar conformidade com requisitos;
+    4. Garantir a cobertura necessária do objeto de teste e confiança sobre o nível de qualidade.
 
 A seguir os cenários de teste que atendem aos requisitos e que serão utilizados na realização dos testes desta aplicação.
 
-## Cenários de Teste
+### Cenários de Teste
 
 | Nº Teste | Tela | Cenário de teste |
 |----------|------|------------------|
