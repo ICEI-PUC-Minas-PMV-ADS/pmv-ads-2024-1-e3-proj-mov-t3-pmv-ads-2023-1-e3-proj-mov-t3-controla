@@ -5,7 +5,7 @@ A seguir os cenários de teste que atendem aos requisitos e que serão utilizado
 ## Cenários de Teste
 
 | Nº Teste | Tela | Cenário de teste |
-|----------|--------|------------------|
+|----------|------|------------------|
 | CT-01 | Inicial | É esperado que seja exibido opção das funcionalidades de fazer login com email cadastrado ou criar conta no app. |
 | CT-02 | Inicial | É esperado que ao clicar no botão "CRIAR CONTA" o usuário seja redirecionado para tela de Cadastro. |
 | CT-03 | Inicial | É esperado que ao clicar no botão "DIGITE SEU EMAIL" o usuário seja redirecionado para tela de Login. |
@@ -21,28 +21,36 @@ A seguir os cenários de teste que atendem aos requisitos e que serão utilizado
 | CT-13 | Login | É esperado que seja exibido opção da funcionalidade "Esqueci minha senha" e ao clicar seja redirecionado para tela de recuperação de senha. |
 | CT-14 | Esqueci minha senha | Ao preencher o campo de e-mail e clicar no botão "Recuperar senha", o usuário deve receber e-mail com senha e ser redirecionado para tela de Login. |
 | CT-15 | Home | É esperado que seja exibido todas as opções de funcionalidades do app. |
-| CT-16 | Minha Carteira | XXX. |
-| CT-17 | Movimentações | É esperado que seja exibido todas as movimentações do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova movimentação. |
-| CT-18 | Movimentações | É esperado que seja possível filtrar as movimentações por tipo (Despesas, Receitas ou Investimentos). |
-| CT-19 | Movimentações | É esperado que ao clicar em uma movimentação deve visualizar detalhes desta movimentação. |
-| CT-20 | Movimentações | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a movimentação deve ser deletada do sistema. |
-| CT-21 | Movimentações | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
-| CT-22 | Movimentações | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
-| CT-23 | Cadastro de Movimentações | É esperado que tenha classificações para tipos de movimentações (Despesas, Receitas ou Investimentos) e de recorrência (fixa, programada ou única). |
-| CT-24 | Cadastro de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação salva e ser redirecionado para tela de Movimentações. |
-| CT-25 | Edição de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação editada salva e ser redirecionado para tela de Movimentações. |
-| CT-26 | Despesas | É esperado que seja exibido todas as despesas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova despesa. |
-| CT-27 | Despesas | É esperado que ao clicar em uma despesa deve visualizar detalhes desta despesa. |
-| CT-28 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
-| CT-29 | Despesas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
-| CT-30 | Despesas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
-| CT-31 | Receitas | É esperado que seja exibido todas as receitas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova receita. |
-| CT-32 | Receitas | É esperado que ao clicar em uma receita deve visualizar detalhes desta receita. |
-| CT-33 | Receitas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a receita deve ser deletada do sistema. |
-| CT-34 | Receitas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
-| CT-35 | Receitas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
-| CT-36 | Investimentos | XXX. |
-
+| CT-16 | Home | É esperado que seja exibido um gráfico de setores com as movimentações. |
+| CT-17 | Home | É esperado que seja exibido uma notificação de alerta caso o valor das despesas seja superior ao valor das receitas. |
+| CT-18 | Home | É esperado que seja exibido uma notificação de alerta caso o usuário tenha ultrapassado o limite estabelecido de despesas no mês. |
+| CT-19 | Home | É esperado que seja exibido uma notificação de sucesso caso o usuário tenha concluído o mês com o valor das receitas maior que o valor das despesas. |
+| CT-20 | Home | É esperado que seja exibido uma notificação de sucesso caso o usuário tenha atingido sua meta estabelecida de receitas no mês. |
+| CT-21 | Minha Carteira | É esperado que seja exibido o valor de saldo atual do usuário. |
+| CT-22 | Movimentações | É esperado que seja exibido todas as movimentações do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova movimentação. |
+| CT-23 | Movimentações | É esperado que seja possível filtrar as movimentações por tipo (Despesas, Receitas ou Investimentos). |
+| CT-24 | Movimentações | É esperado que ao clicar em uma movimentação deve visualizar detalhes desta movimentação. |
+| CT-25 | Movimentações | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a movimentação deve ser deletada do sistema. |
+| CT-26 | Movimentações | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-27 | Movimentações | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-28 | Cadastro de Movimentações | É esperado que tenha classificações para tipos de movimentações (Despesas, Receitas ou Investimentos) e de recorrência (fixa, programada ou única). |
+| CT-29 | Cadastro de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação salva e ser redirecionado para tela de Movimentações. |
+| CT-30 | Edição de Movimentações | Ao preencher todos os campos válidos e clicar em "Salvar", o usuário deve ter sua movimentação editada salva e ser redirecionado para tela de Movimentações. |
+| CT-31 | Despesas | É esperado que seja exibido todas as despesas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova despesa. |
+| CT-32 | Despesas | É esperado que ao clicar em uma despesa deve visualizar detalhes desta despesa. |
+| CT-33 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
+| CT-34 | Despesas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-35 | Despesas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-36 | Receitas | É esperado que seja exibido todas as receitas do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma nova receita. |
+| CT-37 | Receitas | É esperado que ao clicar em uma receita deve visualizar detalhes desta receita. |
+| CT-38 | Receitas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a receita deve ser deletada do sistema. |
+| CT-39 | Receitas | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-40 | Receitas | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
+| CT-41 | Investimentos | É esperado que seja exibido todas os investimentos do mês selecionado e opção de visualizar detalhes, editar, exluir ou adicionar uma novo investimento. |
+| CT-42 | Investimentos | É esperado que ao clicar em um investimento deve visualizar detalhes deste investimento. |
+| CT-43 | Investimentos | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" o investimento deve ser deletado do sistema. |
+| CT-44 | Investimentos | É esperado que ao clicar no ícone de edição o usuário seja redirecionado para tela de Edição de Movimentações. |
+| CT-45 | Investimentos | É esperado que ao clicar no ícone de adição o usuário seja redirecionado para tela de Cadastro de Movimentações. |
 
 ## Ferramentas de Testes (Opcional)
 
