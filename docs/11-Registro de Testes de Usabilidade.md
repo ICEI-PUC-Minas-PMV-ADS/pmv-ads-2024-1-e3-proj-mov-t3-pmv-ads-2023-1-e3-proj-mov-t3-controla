@@ -46,4 +46,4 @@ Conforme testes realizados e apresentados na aba "Registro de Testes de Software
 
 ## Conclusão
 
-Conforme avaliações de usuários e registros de testes, a equipe de desenvolvimento do Controla Fácil enxergou a necessidade de implementar novas funcionalidades e aprimorar a aplicação como um todo. 
+Conforme avaliações de usuários e registros de testes, a equipe de desenvolvimento do Controla Fácil enxergou a necessidade de implementar novas funcionalidades e continuar aprimorando a aplicação como um todo.
