@@ -8,7 +8,7 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da aplicação.
 
-![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-cadastro.jpg?raw=true)
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-cadastro.png?raw=true)
 <sub>*Figura: Tela de cadastro*</sub>
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
@@ -23,7 +23,7 @@ Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da
 
 Tela que permite ao usuário acessar ao seu perfil com autenticação via login e senha.
 
-![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-login.jpg?raw=true)
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-login.png?raw=true)
 <sub>*Figura: Tela de login*</sub>
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
