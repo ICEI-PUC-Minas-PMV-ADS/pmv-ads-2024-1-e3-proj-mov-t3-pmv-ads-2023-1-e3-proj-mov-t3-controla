@@ -16,7 +16,8 @@ Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da
 |RF-09| Permitir que o usuário faça um cadastro com login e senha. | Create.cshtml / Delete.cshtml/ Index.cshtml/ Views.usuarios | 
 
 **Código fonte**
-![cadastrar]()
+![cadastrar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/codigo-cadastro.png?raw=true)
+
 
 ###  **Tela de login**
 
@@ -31,7 +32,7 @@ Tela que permite ao usuário acessar ao seu perfil com autenticação via login 
 
 **Código fonte**
 
-![login]()
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/codigo-login.png?raw=true)
 
 
 > **Links Úteis**:
