@@ -45,14 +45,14 @@ const Inicial = ({ navigation }) => {
       <View style={styles.login}>
         <TextInput
           style={styles.input}
-          placeholder="Login"
+          placeholder="Email"
           value={email}
           onChangeText={setEmail}
           autoCapitalize="none"
         />
         <TextInput
           style={styles.input}
-          placeholder="Password"
+          placeholder="Senha"
           value={password}
           onChangeText={setPassword}
           secureTextEntry={true}
@@ -60,12 +60,12 @@ const Inicial = ({ navigation }) => {
 
         <View style={styles.buttons}>
           <Button
-            title="Sign In"
+            title="Cadastrar"
             color="#5B3CD7"
             onPress={handleCreateAccount}
           />
           <Button
-            title="Log In"
+            title="Entrar"
             color="#3995C8"
             onPress={handleLogin}
           />

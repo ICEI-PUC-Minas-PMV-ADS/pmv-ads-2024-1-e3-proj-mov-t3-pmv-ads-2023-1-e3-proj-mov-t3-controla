@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, Image, TextInput, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useNavigation } from '@react-navigation/native';
 import Logo from '../assets/Logo.png';
 
 const Cadastro = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const navigation = useNavigation();
 
   const handleSignUp = async () => {
     // Verificar se as senhas coincidem
@@ -20,7 +22,7 @@ const Cadastro = () => {
       await AsyncStorage.setItem('email', email);
       await AsyncStorage.setItem('password', password);
       alert('Cadastro realizado com sucesso!');
-      
+      navigation.navigate('Login');
     } catch (error) {
       console.error('Erro ao salvar os dados:', error);
       alert('Erro ao salvar os dados. Por favor, tente novamente.');
