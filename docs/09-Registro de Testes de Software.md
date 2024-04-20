@@ -5,7 +5,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 # 1º Caso de Teste: Realizar Cadastro
 
-| Caso de Teste | CT-01 - Cadastro |
+| Caso de Teste | CT-03 - Cadastro |
 |---------------|-----------------------------|
 | Requisitos Associados | RF-09 - Permitir que o usuário faça um cadastro com login e senha. |
 | Objetivo do Teste | Verificar se o usuário consegue realizar o cadastro na aplicação |
@@ -24,13 +24,35 @@ Já na situação a seguir, o usuário preencheu corretamente todos os campos e 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/8db84049-fd69-4963-b8a7-a1caf0f475d5" width=300><br>
 <sub>*Figura: Sucesso Tela de cadastro*</sub>
 
+# 2º Caso de Teste: Realizar Login
+
+| Caso de Teste | CT-04 - Login |
+|---------------|-----------------------------|
+| Requisitos Associados | RF-01 - Permitir que o usuário faça login em seu perfil com login e senha. |
+| Objetivo do Teste | Verificar se o usuário consegue realizar o login na aplicação |
+| Instruções| - Acessar a aplicação <br> - Clicar na opção **login** <br> - Informar o **E-mail**, **Senha**  <br> - Em seguida , clicar na opção **Entrar**
+| Critérios de Êxito | O usuário consegue realizar seu login, é notificado com uma mensagem de sucesso. |
 
 ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-login.png?raw=true) <br>
 <sub>*Figura: Tela de login*</sub>
 
+A imagem a seguir demonstra o sucesso obtido do usuário ao inserir seus dados corretamente dados nos campos "Login" e "Senha".
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/cbf85993-c25b-48f7-aa5a-c503d761d770" width=300><br>
+<sub> *Figura: Sucesso Tela de Login*</sub>
+
+
+# 3º Caso de Teste: Realizar Login
+
+| Caso de Teste | CT-06 - Login |
+|---------------|-----------------------------|
+| Requisitos Associados | RF-01 - Permitir que o usuário faça login em seu perfil com login e senha. |
+| Objetivo do Teste | Verificar se o usuário consegue realizar o login na aplicação |
+| Instruções| - Acessar a aplicação <br> - Clicar na opção **login** <br> - Informar o **E-mail**, **Senha**  <br> - Em seguida , clicar na opção **Entrar**
+| Critérios de Êxito | O usuário consegue realizar seu login, é notificado com uma mensagem de sucesso. |
+
+A imagem a seguir demonstra o Erro obtido ao usuario inserir incorretamente os dados nos campos "Login" e "Senha"
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/ccf47e9e-b52a-4614-aa8c-5271c494f1ef" width=300><br>
 <sub> *Figura: Erro Tela de Login*</sub>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/122227953/cbf85993-c25b-48f7-aa5a-c503d761d770" width=300><br>
-<sub> *Figura: Sucesso Tela de Login*</sub>
+
