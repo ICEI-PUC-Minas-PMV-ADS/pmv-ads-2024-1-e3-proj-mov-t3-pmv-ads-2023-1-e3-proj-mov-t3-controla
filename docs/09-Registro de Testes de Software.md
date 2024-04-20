@@ -48,7 +48,7 @@ A imagem a seguir demonstra o sucesso obtido do usuário ao inserir seus dados c
 | Requisitos Associados | RF-01 - Permitir que o usuário faça login em seu perfil com login e senha. |
 | Objetivo do Teste | Verificar se o usuário consegue realizar o login na aplicação |
 | Instruções| - Acessar a aplicação <br> - Clicar na opção **login** <br> - Informar o **E-mail**, **Senha**  <br> - Em seguida , clicar na opção **Entrar**
-| Critérios de Êxito | O usuário consegue realizar seu login, é notificado com uma mensagem de sucesso. |
+| Critérios de Êxito | O usuário deve receber ua mensagem de notificação de insucesso de login , quando as credenciais forem preenchidas incorretamente.|
 
 A imagem a seguir demonstra o Erro obtido ao usuario inserir incorretamente os dados nos campos "Login" e "Senha"
 
