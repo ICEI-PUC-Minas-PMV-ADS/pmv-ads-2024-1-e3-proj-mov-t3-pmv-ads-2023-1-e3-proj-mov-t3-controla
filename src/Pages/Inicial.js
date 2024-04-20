@@ -1,11 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, View, StyleSheet, Image, TextInput, Button } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import Logo from '../assets/Logo.png';
 
 const Inicial = ({ navigation }) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('')
 
   const handleCreateAccount = () => {
     navigation.navigate('Cadastro'); // Navega para a página de cadastro
+  };
+
+  const handleLogin = async () => {
+    try {
+      // Recuperar os dados do AsyncStorage
+      const savedEmail = await AsyncStorage.getItem('email');
+      const savedPassword = await AsyncStorage.getItem('password');
+
+      // Verificar se os dados do formulário coincidem com os dados salvos
+      if (email === savedEmail && password === savedPassword) {
+        // Login bem-sucedido
+        alert('Login bem-sucedido!');
+      } else {
+        // Credenciais inválidas
+        alert('Credenciais inválidas. Por favor, tente novamente.');
+        console.log("email digitado: ", email)
+        console.log("email salvo: ", savedEmail)
+        console.log("senha digitada: ", password)
+        console.log("senha salva: ", savedPassword)
+      }
+    } catch (error) {
+      console.error('Erro ao recuperar os dados:', error);
+      alert('Erro ao tentar fazer o login. Por favor, tente novamente.');
+    }
   };
 
   return (
@@ -19,10 +46,16 @@ const Inicial = ({ navigation }) => {
         <TextInput
           style={styles.input}
           placeholder="Login"
+          value={email}
+          onChangeText={setEmail}
+          autoCapitalize="none"
         />
         <TextInput
           style={styles.input}
           placeholder="Password"
+          value={password}
+          onChangeText={setPassword}
+          secureTextEntry={true}
         />
 
         <View style={styles.buttons}>
@@ -34,7 +67,7 @@ const Inicial = ({ navigation }) => {
           <Button
             title="Log In"
             color="#3995C8"
-            onPress={() => console.log('pressed Entrar')}
+            onPress={handleLogin}
           />
         </View>
       </View>

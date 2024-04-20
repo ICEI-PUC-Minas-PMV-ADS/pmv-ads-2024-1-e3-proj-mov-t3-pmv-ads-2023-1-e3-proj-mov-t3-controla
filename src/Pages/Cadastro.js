@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, Image, TextInput, Button } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import Logo from '../assets/Logo.png';
 
 const Cadastro = () => {
@@ -7,11 +8,23 @@ const Cadastro = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
-  const handleSignUp = () => {
-    // Lógica para cadastro aqui
-    console.log('E-mail:', email);
-    console.log('Senha:', password);
-    console.log('Confirmar Senha:', confirmPassword);
+  const handleSignUp = async () => {
+    // Verificar se as senhas coincidem
+    if (password !== confirmPassword) {
+      alert('As senhas não coincidem');
+      return;
+    }
+
+    // Salvar os dados no AsyncStorage
+    try {
+      await AsyncStorage.setItem('email', email);
+      await AsyncStorage.setItem('password', password);
+      alert('Cadastro realizado com sucesso!');
+      
+    } catch (error) {
+      console.error('Erro ao salvar os dados:', error);
+      alert('Erro ao salvar os dados. Por favor, tente novamente.');
+    }
   };
 
   return (
