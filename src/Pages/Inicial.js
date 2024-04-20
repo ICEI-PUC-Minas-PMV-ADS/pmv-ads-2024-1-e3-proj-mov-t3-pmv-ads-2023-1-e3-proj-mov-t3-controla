@@ -2,7 +2,11 @@ import React from 'react';
 import { Text, View, StyleSheet, Image, TextInput, Button } from 'react-native';
 import Logo from '../assets/Logo.png';
 
-const Inicial = () => {
+const Inicial = ({ navigation }) => {
+
+  const handleCreateAccount = () => {
+    navigation.navigate('Cadastro'); // Navega para a página de cadastro
+  };
 
   return (
     <View style={styles.container}>
@@ -25,7 +29,7 @@ const Inicial = () => {
           <Button
             title="Sign In"
             color="#5B3CD7"
-            onPress={() => console.log('pressed Criar')}
+            onPress={handleCreateAccount}
           />
           <Button
             title="Log In"
