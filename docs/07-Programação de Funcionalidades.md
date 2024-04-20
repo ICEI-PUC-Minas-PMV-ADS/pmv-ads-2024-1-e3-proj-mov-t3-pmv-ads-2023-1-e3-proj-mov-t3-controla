@@ -4,7 +4,35 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+###  **Tela de cadastro de novo usuário**
+
+Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da aplicação.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-cadastro.jpg?raw=true)
+<sub>*Figura: Tela de cadastro*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | Create.cshtml / Delete.cshtml/ Index.cshtml/ Views.usuarios | 
+
+**Código fonte**
+![cadastrar]()
+
+###  **Tela de login**
+
+Tela que permite ao usuário acessar ao seu perfil com autenticação via login e senha.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-login.jpg?raw=true)
+<sub>*Figura: Tela de login*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | login.cshtml / Views.usuarios |
+
+**Código fonte**
+
+![login]()
+
 
 > **Links Úteis**:
 >
