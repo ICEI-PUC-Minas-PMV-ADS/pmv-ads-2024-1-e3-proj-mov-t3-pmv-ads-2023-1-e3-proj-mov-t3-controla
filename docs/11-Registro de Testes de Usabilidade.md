@@ -42,7 +42,7 @@ Conforme testes realizados e apresentados na aba "Registro de Testes de Software
 | CT-04 | Acessar tela de extrato. | Em desenvolvimento |
 | CT-05 | Alterar o modo de exibição do aplicativo (Light Mode/Dark Mode). | Em desenvolvimento |
 
-*Importante: A aplicação ainda está em sua fase inicial de desenvolvimento. Os testes serão atualizados conforme novas funcionalidades forem implementadas.*
+*Importante: A aplicação ainda está em sua fase inicial de desenvolvimento. Os testes serão atualizados conforme as novas funcionalidades forem implementadas.*
 
 ## Conclusão
 
