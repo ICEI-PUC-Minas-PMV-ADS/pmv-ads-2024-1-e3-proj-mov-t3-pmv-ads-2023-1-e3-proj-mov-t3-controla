@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Text, View, StyleSheet, Image, TextInput, Button } from 'react-native';
+import {  View, StyleSheet, TextInput, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Logo from '../assets/Logo.png';
+import Logo from '../components/Logo'
 
 const Inicial = ({ navigation }) => {
   const [email, setEmail] = useState('');
@@ -14,20 +14,15 @@ const Inicial = ({ navigation }) => {
   const handleLogin = async () => {
     try {
       // Recuperar os dados do AsyncStorage
-      const savedEmail = await AsyncStorage.getItem('email');
-      const savedPassword = await AsyncStorage.getItem('password');
+      const userData = JSON.parse(await AsyncStorage.getItem('userData'));
 
       // Verificar se os dados do formulário coincidem com os dados salvos
-      if (email === savedEmail && password === savedPassword) {
+      if (email === userData.email && password === userData.password) {
         // Login bem-sucedido
         alert('Login bem-sucedido!');
       } else {
         // Credenciais inválidas
         alert('Credenciais inválidas. Por favor, tente novamente.');
-        console.log("email digitado: ", email)
-        console.log("email salvo: ", savedEmail)
-        console.log("senha digitada: ", password)
-        console.log("senha salva: ", savedPassword)
       }
     } catch (error) {
       console.error('Erro ao recuperar os dados:', error);
@@ -37,10 +32,7 @@ const Inicial = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <View>
-        <Image source={Logo} style={styles.logo} />
-      </View>
-      <View style={styles.divider} />
+      <Logo />
 
       <View style={styles.login}>
         <TextInput
@@ -60,14 +52,14 @@ const Inicial = ({ navigation }) => {
 
         <View style={styles.buttons}>
           <Button
+            title="   Entrar   "
+            color="#3995C8"
+            onPress={handleLogin}
+          />
+          <Button
             title="Cadastrar"
             color="#5B3CD7"
             onPress={handleCreateAccount}
-          />
-          <Button
-            title="Entrar"
-            color="#3995C8"
-            onPress={handleLogin}
           />
         </View>
       </View>
@@ -82,15 +74,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // justifyContent: 'center',
   },
-  logo: {
-    marginTop: 60,
-  },
-  divider: {
-    borderBottomWidth: 1,
-    borderBottomColor: '#fff',
-    width: '86%', // Ajuste conforme necessário
-    marginVertical: 40, // Ajuste conforme necessário
-  },
   login: {
     backgroundColor: '#000',
     height: 250,
@@ -101,8 +84,8 @@ const styles = StyleSheet.create({
     padding: 30,
   },
   input: {
-    height: 30,
-    width: 200,
+    height: 40,
+    width: "90%",
     margin: 12,
     borderWidth: 1,
     backgroundColor: '#fff',

@@ -3,6 +3,7 @@ import Inicial from './src/Pages/Inicial';
 import Cadastro from './src/Pages/Cadastro';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import Teste from './src/Pages/Teste'
 
 const Stack = createStackNavigator();
 
@@ -12,17 +13,14 @@ export default function App() {
 
      <NavigationContainer>
 
-      <Stack.Navigator initialRouteName="Inicial">
-      
+      <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name='Teste' component={Teste} />
         <Stack.Screen name="Login" component={Inicial} />
         <Stack.Screen name="Cadastro" component={Cadastro} />
         
       </Stack.Navigator>
 
     </NavigationContainer>
-    // <Inicial />
-    // <Cadastro />
+
   );
 }
-
-
