@@ -1,109 +1,69 @@
-import React, { useState } from 'react';
-import { View, TextInput, Button, Text } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import React from 'react';
+import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
+import { Formik } from 'formik';
 import * as yup from 'yup';
 
-const ErrorMessage = ({ message }) => {
-  return message ? (
-    <Text style={{ color: 'red', marginTop: 10}}>{message}</Text>
-  ) : null;
-};
+const validationSchema = yup.object().shape({
+  email: yup.string().email('Email inválido').required('O email é obrigatório'),
+  password: yup.string().min(6, 'A senha deve ter pelo menos 6 caracteres').required('A senha é obrigatória'),
+  confirmPassword: yup.string().oneOf([yup.ref('password'), null], 'As senhas devem coincidir').required('Confirme sua senha')
+});
 
-const App = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [errors, setErrors] = useState({});
-
-
-  const handleSignUp = async () => {
-    try {
-      const schema = yup.object().shape({
-        email: yup
-          .string()
-          .email('Email inválido')
-          .required('Email é obrigatório'),
-        password: yup
-          .string()
-          .min(6, 'A senha deve ter pelo menos 6 caracteres')
-          .required('Senha é obrigatória'),
-        confirmPassword: yup
-          .string()
-          .oneOf([password], 'As senhas devem corresponder')
-          .required('Confirmação de senha é obrigatória'),
-      });
-
-      await schema.validate(
-        { email, password, confirmPassword },
-        { abortEarly: false }
-      );
-      alert('Cadastro realizado com sucesso!');
-      setErrors({});
-    } catch (error) {
-      const validationErrors = {};
-      error.inner.forEach((err) => {
-        validationErrors[err.path] = err.message;
-      });
-      setErrors(validationErrors);
-      console.log(Object.keys(errors).length > 0);
-    } 
-  };
-
-  const erros = [];
-  for (let err in errors) {
-    erros.push(errors[err]);
-    console.log(erros);
-  }
-
+const SignupForm = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <TextInput
-        style={{
-          marginBottom: 10,
-          borderWidth: 1,
-          borderColor: 'gray',
-          padding: 5,
-          width: 200,
+    <View style={styles.container}>
+      <Formik
+        initialValues={{ email: '', password: '', confirmPassword: '' }}
+        validationSchema={validationSchema}
+        onSubmit={(values) => {
+          // Envie os dados do formulário
+          console.log(values);
         }}
-        onChangeText={setEmail}
-        value={email}
-        placeholder="Email"
-        keyboardType="email-address"
-      />
-
-      <TextInput
-        style={{
-          marginBottom: 10,
-          borderWidth: 1,
-          borderColor: 'gray',
-          padding: 5,
-          width: 200,
-        }}
-        onChangeText={setPassword}
-        value={password}
-        placeholder="Senha"
-        secureTextEntry
-      />
-
-      <TextInput
-        style={{
-          marginBottom: 10,
-          borderWidth: 1,
-          borderColor: 'gray',
-          padding: 5,
-          width: 200,
-        }}
-        onChangeText={setConfirmPassword}
-        value={confirmPassword}
-        placeholder="Confirmar Senha"
-        secureTextEntry
-      />
-
-      <Button title="Enviar" onPress={handleSignUp} />
-      
-      {erros.map(err => <ErrorMessage message={err} />)}
+      >
+        {({ handleChange, handleBlur, handleSubmit, values, errors }) => (
+          <>
+            <TextInput
+              placeholder="Email"
+              onChangeText={handleChange('email')}
+              onBlur={handleBlur('email')}
+              value={values.email}
+              keyboardType="email-address"
+              autoCapitalize="none"
+            />
+            {errors.email && <Text style={styles.error}>{errors.email}</Text>}
+            <TextInput
+              placeholder="Senha"
+              onChangeText={handleChange('password')}
+              onBlur={handleBlur('password')}
+              value={values.password}
+              secureTextEntry
+            />
+            {errors.password && <Text style={styles.error}>{errors.password}</Text>}
+            <TextInput
+              placeholder="Confirmar Senha"
+              onChangeText={handleChange('confirmPassword')}
+              onBlur={handleBlur('confirmPassword')}
+              value={values.confirmPassword}
+              secureTextEntry
+            />
+            {errors.confirmPassword && <Text style={styles.error}>{errors.confirmPassword}</Text>}
+            <Button onPress={handleSubmit} title="Cadastrar" />
+          </>
+        )}
+      </Formik>
     </View>
   );
 };
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+  },
+  error: {
+    color: 'red',
+  },
+});
+
+export default SignupForm;

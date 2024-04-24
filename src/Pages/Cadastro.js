@@ -15,6 +15,7 @@ const Cadastro = () => {
   const navigation = useNavigation();
 
   const handleSignUp = async () => {
+    // Verificação dos campos
     try {
       const schema = yup.object().shape({
         email: yup
@@ -46,13 +47,9 @@ const Cadastro = () => {
         validationErrors[err.path] = err.message;
       });
       setErrors(validationErrors);
-    } 
+    }
   };
-  
-  const erros = [];
-  for (let err in errors) {
-    erros.push(errors[err]);
-  }
+
 
   return (
     <View style={styles.container}>
@@ -84,7 +81,9 @@ const Cadastro = () => {
 
         <Button title="criar conta" color="#5B3CD7" onPress={handleSignUp} />
 
-        {erros.map(err => <ErrorMessage message={err} />)}
+        <ErrorMessage message={errors.email} />
+        <ErrorMessage message={errors.password} />
+        <ErrorMessage message={errors.confirmPassword} />
 
       </View>
     </View>
