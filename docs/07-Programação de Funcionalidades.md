@@ -4,7 +4,36 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+###  **Tela de cadastro de novo usuário**
+
+Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da aplicação.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-cadastro.png?raw=true)
+<sub>*Figura: Tela de cadastro*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | Cadastro.js | 
+
+**Código fonte**
+![cadastrar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/codigo-cadastro.png?raw=true)
+
+
+###  **Tela de login**
+
+Tela que permite ao usuário acessar ao seu perfil com autenticação via login e senha.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/tela-login.png?raw=true)
+<sub>*Figura: Tela de login*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | Inicial.js |
+
+**Código fonte**
+
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/codigo-login.png?raw=true)
+
 
 > **Links Úteis**:
 >
