@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import {  View, StyleSheet, TextInput, Button } from 'react-native';
+import {  View, StyleSheet, Button } from 'react-native';
+import { TextInput } from 'react-native-paper'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Logo from '../components/Logo'
+import Divider from '../components/Divider'
+import ViewDarkBg from '../components/ViewDarkBg'
 
-const Inicial = ({ navigation }) => {
+const Login = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('')
 
@@ -20,6 +23,7 @@ const Inicial = ({ navigation }) => {
       if (email === userData.email && password === userData.password) {
         // Login bem-sucedido
         alert('Login bem-sucedido!');
+        navigation.navigate('Teste'); // Navega para a página de cadastro
       } else {
         // Credenciais inválidas
         alert('Credenciais inválidas. Por favor, tente novamente.');
@@ -31,8 +35,9 @@ const Inicial = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.container}>
+    <ViewDarkBg>
       <Logo />
+      <Divider />
 
       <View style={styles.login}>
         <TextInput
@@ -63,17 +68,11 @@ const Inicial = ({ navigation }) => {
           />
         </View>
       </View>
-    </View>
+    </ViewDarkBg>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#094CCC',
-    alignItems: 'center',
-    // justifyContent: 'center',
-  },
   login: {
     backgroundColor: '#000',
     height: 250,
@@ -100,4 +99,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Inicial;
+export default Login;

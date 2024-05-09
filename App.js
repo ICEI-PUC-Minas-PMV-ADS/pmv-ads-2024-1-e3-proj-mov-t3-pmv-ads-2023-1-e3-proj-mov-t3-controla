@@ -1,28 +1,13 @@
-import React from 'react';
-import Inicial from './src/Pages/Inicial';
-import Cadastro from './src/Pages/Cadastro';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-
-const Stack = createStackNavigator();
+import Inicio from './src/Navigations/Inicio';
 
 export default function App() {
 
+  // Pagina1, 2 e 3 foram criadas para serem as paginas do app
+
   return (
-
-     <NavigationContainer>
-
-      <Stack.Navigator initialRouteName="Inicial">
-      
-        <Stack.Screen name="Login" component={Inicial} />
-        <Stack.Screen name="Cadastro" component={Cadastro} />
-        
-      </Stack.Navigator>
-
+    <NavigationContainer>
+      <Inicio />
     </NavigationContainer>
-    // <Inicial />
-    // <Cadastro />
   );
 }
-
-
