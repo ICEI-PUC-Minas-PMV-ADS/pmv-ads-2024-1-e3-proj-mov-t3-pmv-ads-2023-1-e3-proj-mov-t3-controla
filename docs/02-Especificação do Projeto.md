@@ -47,7 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |-------------------|-----------------------------------------|----|
-|`RF-01`| Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). | `ALTA` | 
+|`RF-01`| Permitir que o usuário faça login em seu perfil com **login e senha**. | `ALTA` | 
 |`RF-02`| Permitir que o usuário registre suas **despesas esporádicas** (corte de cabelo, jantar em restaurante, passeio no parque de diversões, etc.).  | `ALTA` |
 |`RF-03`| Permitir que o usuário registre suas **despesas com “prazo de validade”** (compras parceladas, financiamentos, etc). | `ALTA` | 
 |`RF-04`| Permitir que o usuário registre uma **meta de gastos** (seja ela semanal, mensal ou anual).   | `ALTA` |
@@ -65,7 +65,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |`RF-16`| Permitir que o usuário mantenha um histórico de suas transações na aplicação  | `BAIXA` |
 |`RF-17`| Permitir que o usuário faça o gerenciamento de informações de perfil   | `BAIXA` |
 |`RF-18`| Oferecer **gráficos e relatórios** para visualização clara dos fluxos financeiros. | `MÉDIA` |
-
+|`RF-19`| Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). | `ALTA` | 
 
 
 ### Requisitos não Funcionais

@@ -15,8 +15,6 @@
 ## Integrantes
 
 * Carlos Eduardo Dos Santos Lima
-* Erick Patrick de Santana Santos
-* Jaciane Santana dos Santos
 * Lais Barbosa de Oliveira
 * Lucas Oliveira Soares
 * Marco Antonio Gil do Amaral Oliveira
