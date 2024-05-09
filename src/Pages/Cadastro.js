@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, TextInput, Button, Text } from 'react-native';
+import {  View, StyleSheet, Button } from 'react-native';
+import { TextInput } from 'react-native-paper'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import Logo from '../components/Logo';
+import Divider from '../components/Divider'
 import * as yup from 'yup';
-import ErrorMessage from '../components/ErrorMessege'
-
+import ViewDarkBg from '../components/ViewDarkBg';
+import ErrorMessage from '../components/ErrorMessege';
 
 const Cadastro = () => {
   const [email, setEmail] = useState('');
@@ -15,7 +17,6 @@ const Cadastro = () => {
   const navigation = useNavigation();
 
   const handleSignUp = async () => {
-    // Verificação dos campos
     try {
       const schema = yup.object().shape({
         email: yup
@@ -36,11 +37,13 @@ const Cadastro = () => {
         { email, password, confirmPassword },
         { abortEarly: false }
       );
-      await AsyncStorage.setItem('userData', JSON.stringify({ email, password }));
+      await AsyncStorage.setItem(
+        'userData',
+        JSON.stringify({ email, password })
+      );
       alert('Cadastro realizado com sucesso!');
       setErrors({});
-      navigation.navigate('Login')
-
+      navigation.navigate('Login');
     } catch (error) {
       const validationErrors = {};
       error.inner.forEach((err) => {
@@ -50,10 +53,15 @@ const Cadastro = () => {
     }
   };
 
+  const erros = [];
+  for (let err in errors) {
+    erros.push(errors[err]);
+  }
 
   return (
-    <View style={styles.container}>
-      <Logo Cadastro />
+    <ViewDarkBg>
+      <Logo />
+      <Divider />
 
       <View style={styles.cadastro}>
         <TextInput
@@ -79,23 +87,17 @@ const Cadastro = () => {
           secureTextEntry={true}
         />
 
-        <Button title="criar conta" color="#5B3CD7" onPress={handleSignUp} />
+        <Button title="Cadastrar" color="black" onPress={handleSignUp} />
 
-        <ErrorMessage message={errors.email} />
-        <ErrorMessage message={errors.password} />
-        <ErrorMessage message={errors.confirmPassword} />
-
+        {erros.map((err) => (
+          <ErrorMessage message={err} />
+        ))}
       </View>
-    </View>
+    </ViewDarkBg>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#094CCC',
-    alignItems: 'center',
-  },
   cadastro: {
     width: '100%',
     alignItems: 'center',
