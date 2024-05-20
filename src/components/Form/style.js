@@ -81,7 +81,6 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     marginTop: 5,
   },
-  // Dentro do objeto StyleSheet.create
   buttonText: {
     fontSize: 13,
     marginLeft: 5, // Espaçamento entre o ícone e o texto
