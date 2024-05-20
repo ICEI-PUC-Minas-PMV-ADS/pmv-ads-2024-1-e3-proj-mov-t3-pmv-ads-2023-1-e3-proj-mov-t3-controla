@@ -11,7 +11,7 @@ import {
 import styles from './style';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { TextInputMask } from 'react-native-masked-text';
-import Icon from 'react-native-vector-icons/FontAwesome'; // Importe os ícones que deseja utilizar
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Form() {
   const [tipo, setTipo] = useState('');
