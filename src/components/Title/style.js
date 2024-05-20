@@ -7,13 +7,13 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     logo: {
-        marginRight: 10, // Adiciona um espaço entre a imagem e o texto
+        marginRight: 10,
         width: 50,
         height: 50,
     },
     title: {
         color: '#000',
-        fontSize: 15, // Tamanho maior do texto
+        fontSize: 15, //
     },
 });
 
