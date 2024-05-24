@@ -1,35 +1,35 @@
 import React from 'react';
 import {View, StyleSheet, Text, Image} from 'react-native';
+import Form from '../components/FormReceitas/index';
 
 const Receitas = () => {
   return (
     <View style={styles.container}>
-      <Image
-            source={require('../assets/Logo.png')} // Caminho da imagem da logo
-            style={styles.logo}
-            resizeMode="contain" // Modo de redimensionamento da imagem
-      />
-      <View style={styles.divider} />
+     <View style={styles.imagem}>
+        <Image
+              source={require('../assets/Logo.png')}
+              style={styles.logo}
+              resizeMode="contain"
+        />
+        <View style={styles.divider} />
+      </View>
       <View style={styles.header}>  
-        <Text style={styles.subtitle}>Página de perfil...</Text>
+        <Form />
       </View>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#06358f', // Cor de fundo geral
-    alignItems: 'center',
+    backgroundColor: '#06358f' // Cor de fundo geral
+  },
+  imagem: {
+    alignItems: 'center'
   },
   header: {
     padding: 10
-  },
-  subtitle: {
-    fontSize: 16,
-    color: '#fff',
-    textAlign: 'center',
   },
   logo: {
     width: 225,

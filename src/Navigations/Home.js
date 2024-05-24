@@ -1,32 +1,77 @@
-import React, {useState} from 'react';
-import { BottomNavigation, Text } from 'react-native-paper';
-import Pagina1 from '../Pages/Pagina1'
-import Pagina2 from '../Pages/Pagina2'
-import Pagina3 from '../Pages/Pagina3'
+import * as React from 'react';
+import { Text, View, StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Ionicons } from '@expo/vector-icons';
+import HomePage from '../pages/HomePage'
+import Receitas from '../pages/Receitas'
+import Pagina2 from '../pages/Pagina2'
+import Despesas from '../pages/Despesas'
 
-
-const Home = () => {
-  const [index, setIndex] = useState(0);
-  
-  const [routes] = useState([
-    { key: 'pagina1', title: '1', icon: 'dog' },
-    { key: 'pagina2', title: '2', icon: 'duck' },
-    { key: 'pagina3', title: '3', icon: 'cat' },
-  ]);
-
-  const renderScene = BottomNavigation.SceneMap({
-    pagina1: Pagina1,
-    pagina2: Pagina2,
-    pagina3: Pagina3,
-  });
-
+function HomeScreen() {
   return (
-    <BottomNavigation
-      navigationState={{ index, routes }}
-      onIndexChange={setIndex}
-      renderScene={renderScene}
-    />
+     <HomePage />
   );
-};
+}
 
-export default Home;
+function ReceitasScreen() {
+  return (
+    <Receitas />
+  );
+}
+
+function DespesasScreen() {
+  return (
+    <Despesas />
+  );
+}
+
+function ProfileScreen() {
+  return (
+    <Pagina2 />
+  );
+}
+
+const Tab = createBottomTabNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused, color, size }) => {
+            let iconName;
+
+            if (route.name === 'Home') {
+              iconName = focused ? 'home' : 'home-outline';
+            } else if (route.name === 'Receitas') {
+              iconName = focused ? 'wallet' : 'wallet-outline';
+            } else if (route.name === 'Despesas') {
+              iconName = focused ? 'wallet' : 'wallet-outline';
+            } else if (route.name === 'Perfil') {
+              iconName = focused ? 'person' : 'person-outline';
+            }
+
+            // Você pode retornar qualquer componente aqui!
+            return <Ionicons name={iconName} size={size} color={'#06358f'} />;
+          },
+          //tabBarShowLabel: false,
+          tabBarStyle: styles.tabBar,
+        })}
+      >
+        <Tab.Screen name="Home" component={HomeScreen} />
+        <Tab.Screen name="Receitas" component={ReceitasScreen} />
+        <Tab.Screen name="Despesas" component={DespesasScreen} />
+        <Tab.Screen name="Perfil" component={ProfileScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  tabBar: {
+    height: 60,
+    justifyContent: 'center',
+    paddingBottom: 10,
+  },
+});
