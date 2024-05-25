@@ -1,13 +1,13 @@
-import React from 'react'
-import {View, Text} from 'react-native'
-import HomePage from './src/Navigations/Home'
+import { NavigationContainer } from '@react-navigation/native';
+import Inicio from './src/Navigations/Inicio';
 
-const App = () => {
+export default function App() {
+
+  // Pagina1, 2 e 3 foram criadas para serem as paginas do app
 
   return (
-    <HomePage />
+    <NavigationContainer>
+      <Inicio />
+    </NavigationContainer>
   );
-
 }
-
-export default App;

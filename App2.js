@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View, SafeAreaView } from 'react-native';
@@ -29,3 +30,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
 });
+=======
+
+>>>>>>> gildoamaral

@@ -3,10 +3,10 @@ import { Text, View, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
-import HomePage from '../pages/HomePage'
-import Receitas from '../pages/Receitas'
-import Pagina2 from '../pages/Pagina2'
-import Despesas from '../pages/Despesas'
+import HomePage from '../Pages/HomePage'
+import Receitas from '../Pages/Receitas'
+import Pagina2 from '../Pages/Pagina2'
+import Despesas from '../Pages/Despesas'
 
 function HomeScreen() {
   return (
@@ -36,7 +36,10 @@ const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
+<<<<<<< HEAD
     <NavigationContainer>
+=======
+>>>>>>> gildoamaral
       <Tab.Navigator
         screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
@@ -64,7 +67,10 @@ export default function App() {
         <Tab.Screen name="Despesas" component={DespesasScreen} />
         <Tab.Screen name="Perfil" component={ProfileScreen} />
       </Tab.Navigator>
+<<<<<<< HEAD
     </NavigationContainer>
+=======
+>>>>>>> gildoamaral
   );
 }
 

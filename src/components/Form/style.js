@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     marginTop: 5,
   },
+  // Dentro do objeto StyleSheet.create
   buttonText: {
     fontSize: 13,
     marginLeft: 5, // Espaçamento entre o ícone e o texto
@@ -89,8 +90,8 @@ const styles = StyleSheet.create({
     marginRight: 5, // Espaçamento entre o ícone e o texto
   },
   buttonEditarExcluir: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    paddingHorizontal: 12, // Aumento de 10% na largura
+    paddingVertical: 6, // Aumento de 10% na altura
     borderRadius: 10,
     marginLeft: 5,
     flexDirection: 'row', // Para alinhar o ícone e o texto horizontalmente
@@ -103,7 +104,7 @@ const styles = StyleSheet.create({
   paddingHorizontal: 20,
   paddingTop: 20,
   marginTop: 20,
-  width: '100%',
+  width: '100%', // Definindo a largura para ocupar a tela inteira horizontalmente
 },
 });
 

@@ -1,32 +1,19 @@
 import React from 'react';
-import {View, StyleSheet, Text, Image} from 'react-native';
+import { View, StyleSheet, Text, Image } from 'react-native';
+import Container from '../components/Container';
 
 const HomePage = () => {
   return (
-    <View style={styles.container}>
-      <Image
-            source={require('../assets/Logo.png')} // Caminho da imagem da logo
-            style={styles.logo}
-            resizeMode="contain" // Modo de redimensionamento da imagem
-      />
-      <View style={styles.divider} />
-      <View style={styles.header}>  
-        <Text style={styles.title}>CONTROLA FÁCIL</Text>
-        <Text style={styles.subtitle}>Bem-vindo ao seu App de Investimentos!</Text>
-      </View>
-    </View>
+    <Container>
+      <Text style={styles.title}>CONTROLA FÁCIL</Text>
+      <Text style={styles.subtitle}>
+        Bem-vindo ao seu App de Investimentos!
+      </Text>
+    </Container>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#06358f', // Cor de fundo geral
-    alignItems: 'center',
-  },
-  header: {
-    padding: 10
-  },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
@@ -39,6 +26,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
   },
+<<<<<<< HEAD
   logo: {
     width: 225,
     height: 83,
@@ -52,3 +40,8 @@ const styles = StyleSheet.create({
 });
 
 export default HomePage;
+=======
+});
+
+export default HomePage;
+>>>>>>> gildoamaral

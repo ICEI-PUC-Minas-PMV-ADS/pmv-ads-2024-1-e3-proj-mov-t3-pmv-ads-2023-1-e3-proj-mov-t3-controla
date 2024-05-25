@@ -1,9 +1,8 @@
-import React from 'react';
-<<<<<<< HEAD
-import {View, StyleSheet, Text, Image} from 'react-native';
-import Form from '../components/FormReceitas/index';
+import react from 'react'
+import { StyleSheet, View, Image } from 'react-native'
 
-const Receitas = () => {
+const Container = ({ children }) => {
+
   return (
     <View style={styles.container}>
      <View style={styles.imagem}>
@@ -15,16 +14,17 @@ const Receitas = () => {
         <View style={styles.divider} />
       </View>
       <View style={styles.header}>  
-        <Form />
+        {children}
       </View>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#06358f' // Cor de fundo geral
+    backgroundColor: '#06358f', // Cor de fundo geral
+    paddingBottom: 100
   },
   imagem: {
     alignItems: 'center'
@@ -42,19 +42,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#d7d7d7e8', // Cor da linha (branca)
     marginBottom: 20, // Espaçamento abaixo da linha
   }
-});
-=======
-import Form from '../components/FormReceitas/index';
-import Container from '../components/Container';
+})
 
-const Receitas = () => {
-  return (
-    <Container>
-      <Form />
-    </Container>
-  );
-};
-
->>>>>>> gildoamaral
-
-export default Receitas;
+export default Container
