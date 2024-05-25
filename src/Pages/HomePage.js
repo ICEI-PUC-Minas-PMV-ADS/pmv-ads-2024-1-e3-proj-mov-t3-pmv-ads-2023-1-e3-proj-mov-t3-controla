@@ -26,22 +26,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
   },
-<<<<<<< HEAD
-  logo: {
-    width: 225,
-    height: 83,
-  },
-  divider: {
-    width: '95%', // Largura da linha
-    height: 1, // Altura da linha
-    backgroundColor: '#d7d7d7e8', // Cor da linha (branca)
-    marginBottom: 20, // Espaçamento abaixo da linha
-  }
 });
 
 export default HomePage;
-=======
-});
-
-export default HomePage;
->>>>>>> gildoamaral

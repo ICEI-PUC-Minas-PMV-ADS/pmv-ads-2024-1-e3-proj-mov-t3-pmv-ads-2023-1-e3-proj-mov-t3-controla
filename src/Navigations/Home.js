@@ -36,10 +36,6 @@ const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-<<<<<<< HEAD
-    <NavigationContainer>
-=======
->>>>>>> gildoamaral
       <Tab.Navigator
         screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
@@ -67,10 +63,6 @@ export default function App() {
         <Tab.Screen name="Despesas" component={DespesasScreen} />
         <Tab.Screen name="Perfil" component={ProfileScreen} />
       </Tab.Navigator>
-<<<<<<< HEAD
-    </NavigationContainer>
-=======
->>>>>>> gildoamaral
   );
 }
 

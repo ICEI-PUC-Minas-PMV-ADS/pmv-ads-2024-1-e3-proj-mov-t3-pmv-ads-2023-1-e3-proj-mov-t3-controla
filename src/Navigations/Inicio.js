@@ -10,11 +10,16 @@ const Stack = createStackNavigator();
 export default function NavigationLogin() {
 
   return (
+                                        // Só ficara em 'Home' enquanto programamos
+                                        // O correto é ficar em Login
       <Stack.Navigator initialRouteName="Login" > 
+                                        
         <Stack.Screen name='Home' component={Home} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Cadastro" component={Cadastro} />
         <Stack.Screen name='Teste' component={Teste} options={{ headerShown: false }}/>
+        
       </Stack.Navigator>
+
   );
 }
