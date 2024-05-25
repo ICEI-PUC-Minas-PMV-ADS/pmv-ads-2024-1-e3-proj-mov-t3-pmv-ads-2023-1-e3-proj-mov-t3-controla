@@ -1,21 +1,21 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import ViewLightBg from '../components/ViewLightBg';
+import { View, StyleSheet, Text, Image } from 'react-native';
+import Container from '../components/Container';
 
-const Pagina2 = () => {
+const Receitas = () => {
   return (
-    <ViewLightBg>
-
-      <View style={{ backgroundColor: '#fff', height: 180, width: '100%' }}>
-        <Text> ESTA É A PAGINA 2 </Text>
-      </View>
-
-      <View>
-        <Text>TEXTO QUALQUER</Text>
-      </View>
-      
-    </ViewLightBg>
+    <Container>
+      <Text style={styles.subtitle}>Página de perfil...</Text>
+    </Container>
   );
 };
 
-export default Pagina2;
+const styles = StyleSheet.create({
+  subtitle: {
+    fontSize: 16,
+    color: '#fff',
+    textAlign: 'center',
+  },
+});
+
+export default Receitas;
