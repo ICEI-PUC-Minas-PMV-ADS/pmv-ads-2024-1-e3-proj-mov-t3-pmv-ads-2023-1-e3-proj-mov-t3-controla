@@ -68,14 +68,14 @@ A imagem a seguir demonstra o Erro obtido ao usuario inserir incorretamente os d
 A imagem a seguir mostra Sucesso da execução do teste .
 
 ![despesateste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/0d6f05ed-eab1-4a19-b575-0b209c433c9f)
-<sub> *Figura: Cadastro de Despesa* <sub>
+<sub> *Figura: Cadastro de Despesa* </sub>
 
 
-# 4º Caso de Teste: Cadastrar Despesas
+# 5º Caso de Teste: Excluir Despesas
 
 | Caso de Teste | CT-17 - Despesas |
 |---------------|-----------------------------|
-| Requisitos Associados | RF-01 - Permitir que o usuário faça login em seu perfil com login e senha. |
+| Requisitos Associados | RF-19 Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). |
 | Objetivo do Teste | Verificar se o usuário consegue excluir uma despesa na aplicação |
 | Instruções| - Acessar a aplicação - Clicar em despesas <br> Clicar no botão **Excluir** <br> 
 | Critérios de Êxito | O usuário deve recber a mensagem **Despesa excluida com sucesso** - A despesa deve desaparecer|
@@ -84,11 +84,9 @@ A imagem a seguir mostra Sucesso da execução do teste .
 A imagem a seguir mostra a tela após a Despesa ser excluída.
 
 ![despesaexcluidateste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/05976e18-3677-45db-b1c3-946ebad4a989)
-<sub> *Figura: Despesa Excluida*<sub>
+<sub> *Figura: Despesa Excluida*</sub>
 
 
 
-| CT-16 | Despesas | É esperado que ao cadastrar uma despesa deve visualizar detalhes desta despesa. |
-| CT-17 | Despesas | É esperado que ao clicar no ícone de exclusão seja exibido um modal de confirmação, e ao clicar em "Excluir" a despesa deve ser deletada do sistema. |
 
 
