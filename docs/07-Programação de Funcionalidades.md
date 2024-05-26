@@ -46,9 +46,29 @@ Tela permite que usuário cadastre suas receitas.
 |`RF-05`| Permitir que o usuário registre suas receitas fixas. (salário, mesada, etc.). |Receitas.js | 
 
 **Código Fonte**
+
 ![receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/022d1d14-aeba-4d4f-9b7e-3b622f7f14f7)
 
 ![receitaindex1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/4f2560fd-8276-4a3a-894b-2a9be06d12f1)
+
+###  **Tela de Despesas**
+
+Tela permite que usuário cadastre suas despesas.
+
+![despesas1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/770fcfea-b433-4de4-9f36-60d9b8069878)
+
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|`RF-05`| Permitir que o usuário registre suas receitas fixas. (salário, mesada, etc.). |Despesas.js | 
+
+**Código Fonte**
+
+![despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/80ba1aa3-f92e-4bfd-a232-8f873704c363)
+
+![despesasindex2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/33464cc3-3fbd-4f11-890b-59be35af5bc9)
+
+
 
 
 > **Links Úteis**:
