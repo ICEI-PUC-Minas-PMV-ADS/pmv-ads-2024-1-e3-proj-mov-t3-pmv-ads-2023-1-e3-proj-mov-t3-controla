@@ -60,7 +60,7 @@ Tela permite que usuário cadastre suas despesas.
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|`RF-05`| Permitir que o usuário registre suas receitas fixas. (salário, mesada, etc.). |Despesas.js | 
+|`RF-02`| Permitir que o usuário registre suas **despesas esporádicas** (corte de cabelo, jantar em restaurante, passeio no parque de diversões, etc.).  |Despesas.js |
 
 **Código Fonte**
 
