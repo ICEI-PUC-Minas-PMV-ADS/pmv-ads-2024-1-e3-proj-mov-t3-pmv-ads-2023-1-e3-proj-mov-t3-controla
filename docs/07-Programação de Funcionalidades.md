@@ -34,6 +34,21 @@ Tela que permite ao usuário acessar ao seu perfil com autenticação via login 
 
 ![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/blob/main/assets/codigo-login.png?raw=true)
 
+###  **Tela de Receitas**
+
+Tela permite que usuário cadastre suas receitas.
+
+![WhatsApp Image 2024-05-26 at 11 18 36](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/a87add36-6014-4efe-b98e-70c9502ba689)
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|`RF-05`| Permitir que o usuário registre suas receitas fixas. (salário, mesada, etc.). |Receitas.js | 
+
+**Código Fonte**
+![receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/022d1d14-aeba-4d4f-9b7e-3b622f7f14f7)
+
+![receitaindex1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/4f2560fd-8276-4a3a-894b-2a9be06d12f1)
+
 
 > **Links Úteis**:
 >
