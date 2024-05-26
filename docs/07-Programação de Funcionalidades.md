@@ -37,8 +37,8 @@ Tela que permite ao usuário acessar ao seu perfil com autenticação via login 
 ###  **Tela de Receitas**
 
 Tela permite que usuário cadastre suas receitas.
+![receitas2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/48edfc62-0638-45f5-acb3-933ec1fba8bb)
 
-![WhatsApp Image 2024-05-26 at 11 18 36](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/a87add36-6014-4efe-b98e-70c9502ba689)
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
