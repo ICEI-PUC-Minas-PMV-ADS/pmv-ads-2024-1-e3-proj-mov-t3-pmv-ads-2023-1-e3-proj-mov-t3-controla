@@ -86,6 +86,50 @@ A imagem a seguir mostra a tela após a Despesa ser excluída.
 ![despesaexcluidateste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/05976e18-3677-45db-b1c3-946ebad4a989)
 <sub> *Figura: Despesa Excluida*</sub>
 
+# 6º Caso de Teste: Detalhes de Receita
+
+| Caso de Teste | CT-20 - Receitas |
+|---------------|-----------------------------|
+| Requisitos Associados | RF-05| Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
+| Objetivo do Teste |Espera-se que o usuário consiga acessar os detalhes da Receita cadastrada |
+| Instruções| - Acessar a aplicação - Clicar no botão **Editar** na receita cadastrada <br> 
+| Critérios de Êxito | O usuário deve conseguir Editar detalhes da receita|
+
+As imagens a seguir mostram respectivamente: Tela de Receita cadastrada com botão Editar / Tela de Edição
+
+![receitaeditarteste](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/15b88b94-eeca-41b3-a6f9-d26cfdf5878e)
+<sub> *Figura : Tela Receita Editar </sub>
+
+Tela de Edição
+
+![TelaeditarReceita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/ff1e15ad-2fdb-40df-b260-ae4626af553f)
+<sub> *Figura: Tela de Edição </sub>
+
+# 7º Caso de Teste: Excluir Receita
+
+| Caso de Teste | CT-21 - Receitas |
+|---------------|-----------------------------|
+| Requisitos Associados | RF-05| Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
+| Objetivo do Teste |Espera-se que o usuário consiga excluir uma Receita cadastrada |
+| Instruções| - Acessar a aplicação - Clicar Receitas botão **Excluir**  <br> 
+| Critérios de Êxito | O usuário deve receber a mensagem Receita excluida com sucesso|
+
+A imagem abaixo mostra a Tela de Receita com o botão **Excluir**
+
+![ReceitaExcluir](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/abab6834-b05a-48e8-999c-5f2541e40479)
+<sub> *Figura: Tela de excluir <sub/>
+
+Tela Receita Excluida
+
+![receitaExcluida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/cd04df42-254a-4f52-880d-39fbf78104af)
+<sub> *Figura: Tela receita excluida <sub/>
+
+
+
+
+
+
+
 
 
 
