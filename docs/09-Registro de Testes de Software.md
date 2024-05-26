@@ -60,7 +60,7 @@ A imagem a seguir demonstra o Erro obtido ao usuario inserir incorretamente os d
 
 | Caso de Teste | CT-16 - Despesas |
 |---------------|-----------------------------|
-| Requisitos Associados | RF-01 - Permitir que o usuário faça login em seu perfil com login e senha. |
+| Requisitos Associados |  RF-19 - Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). |
 | Objetivo do Teste | Verificar se o usuário consegue cadastrar uma despesa na aplicação |
 | Instruções| - Acessar a aplicação - Clicar em despesas <br> Preencher campos Tipo, valor e Data <br> - Clicar em cadastrar outro
 | Critérios de Êxito | O usuário deve receber a mensagem **Despesa cadastrada com sucesso** - A despesa deve aparecer em **Despesas Cadastradas**|
@@ -75,7 +75,7 @@ A imagem a seguir mostra Sucesso da execução do teste .
 
 | Caso de Teste | CT-17 - Despesas |
 |---------------|-----------------------------|
-| Requisitos Associados | RF-19 Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). |
+| Requisitos Associados | RF-19 -  Permitir que o usuário registre suas **despesas fixas** (aluguel, streaming, seguro, internet, etc.). |
 | Objetivo do Teste | Verificar se o usuário consegue excluir uma despesa na aplicação |
 | Instruções| - Acessar a aplicação - Clicar em despesas <br> Clicar no botão **Excluir** <br> 
 | Critérios de Êxito | O usuário deve recber a mensagem **Despesa excluida com sucesso** - A despesa deve desaparecer|
@@ -90,7 +90,7 @@ A imagem a seguir mostra a tela após a Despesa ser excluída.
 
 | Caso de Teste | CT-20 - Receitas |
 |---------------|-----------------------------|
-| Requisitos Associados | RF-05| Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
+| Requisitos Associados | RF-05 - Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
 | Objetivo do Teste |Espera-se que o usuário consiga acessar os detalhes da Receita cadastrada |
 | Instruções| - Acessar a aplicação - Clicar no botão **Editar** na receita cadastrada <br> 
 | Critérios de Êxito | O usuário deve conseguir Editar detalhes da receita|
@@ -109,7 +109,7 @@ Tela de Edição
 
 | Caso de Teste | CT-21 - Receitas |
 |---------------|-----------------------------|
-| Requisitos Associados | RF-05| Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
+| Requisitos Associados | RF-05 - Permitir que o usuário registre suas **receitas fixas.** (salário, mesada, etc.).|
 | Objetivo do Teste |Espera-se que o usuário consiga excluir uma Receita cadastrada |
 | Instruções| - Acessar a aplicação - Clicar Receitas botão **Excluir**  <br> 
 | Critérios de Êxito | O usuário deve receber a mensagem Receita excluida com sucesso|
