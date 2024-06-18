@@ -4,11 +4,11 @@
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
-## Título do Projeto
+## Controla Fácil - Aplicativo de Controle Financeiro
 
-Controla Fácil - Aplicativo de Controle Financeiro
 
 ## Identidade Visual (Marca, Design)
+![logocontrolafacil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/31b0b01f-c4ce-4f27-a787-84158237e843)
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
