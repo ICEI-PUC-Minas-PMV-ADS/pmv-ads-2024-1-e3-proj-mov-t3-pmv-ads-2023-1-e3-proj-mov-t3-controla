@@ -9,7 +9,7 @@ const ViewDarkBg = ({children}) => {
 const styles = StyleSheet.create({
   principalBg: {
     flex: 1,
-    backgroundColor: '#094CCC',
+    backgroundColor: '#06358f',
     alignItems: 'center',
     // justifyContent: 'center',
   }
