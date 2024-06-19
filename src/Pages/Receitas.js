@@ -1,11 +1,11 @@
 import React from 'react';
-import Form from '../components/FormReceitas/index';
+import FormReceitas from '../components/FormReceitas/index';
 import Container from '../components/Container';
 
 const Receitas = () => {
   return (
     <Container>
-      <Form />
+      <FormReceitas />
     </Container>
   );
 };
