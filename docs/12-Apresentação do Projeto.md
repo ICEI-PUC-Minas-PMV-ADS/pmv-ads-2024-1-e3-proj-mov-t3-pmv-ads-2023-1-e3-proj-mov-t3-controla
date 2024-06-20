@@ -9,7 +9,8 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Identidade Visual (Marca, Design)
 
-[Controla Fácil (1).pdf](https://github.com/user-attachments/files/15912791/Controla.Facil.1.pdf)
+![Screenshot 2024-06-20 081958](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/37d9371d-013b-4a8f-9ef0-cb3ed08c8d0d)
+
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
