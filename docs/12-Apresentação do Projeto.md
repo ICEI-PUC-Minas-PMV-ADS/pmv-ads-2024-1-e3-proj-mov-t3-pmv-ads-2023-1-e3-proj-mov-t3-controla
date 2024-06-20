@@ -3,6 +3,7 @@
 <span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
 https://www.canva.com/design/DAGIk63fwZw/qHDM1ktlcYfW6cCT1Yyoog/view?utm_content=DAGIk63fwZw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+[Controla Fácil (2).pdf](https://github.com/user-attachments/files/15912902/Controla.Facil.2.pdf)
 
 ## Controla Fácil - Aplicativo de Controle Financeiro
 
