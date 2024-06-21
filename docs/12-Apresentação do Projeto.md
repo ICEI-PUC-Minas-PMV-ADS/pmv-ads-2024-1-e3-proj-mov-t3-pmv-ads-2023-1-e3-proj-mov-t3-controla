@@ -1,5 +1,7 @@
 # Apresentação
 
+Controla Fácil é o Gestor Financeiro que soluciona o gerenciamento das finanças. Uma aplicativo simples, fácil de usar e dinâmico.
+
 https://www.canva.com/design/DAGIk63fwZw/qHDM1ktlcYfW6cCT1Yyoog/view?utm_content=DAGIk63fwZw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
@@ -13,22 +15,12 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 ![Screenshot 2024-06-20 081958](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/37d9371d-013b-4a8f-9ef0-cb3ed08c8d0d)
 
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
->
+
+
 
 ## Considerações Finais
 
