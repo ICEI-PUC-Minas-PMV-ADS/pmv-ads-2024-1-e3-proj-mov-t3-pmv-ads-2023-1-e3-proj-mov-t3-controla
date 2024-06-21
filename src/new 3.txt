@@ -1,21 +1,32 @@
- FELIPE E TATIANE 01{06
- 
- RESERVADO 
- INTERCAMVIO EM BUDAPESTE 
- AMIGOS EM COMUM
- AFINIDADE INSTANTANEA
- 2015 FAZEM 9 ANOS 
- FELIPE INVENTINU NA TATI
- PRAGA PRIMEIRO BEIJO
- AS ESCONDIDAS
- INTENSO***
- Tudo acontecendo no Marrocos
- Intercambio 1 ano 
- lua cheia
- grecia 
- 2016
- gravida diana
- diana tem 6 anos 
- convidados : 15 - amigos daqui de pt
+message: Please cite this software using these metadata.
+title: Controla Facil
+authors:
+  - family-names: dos Santos Lima
+    given-names: Carlos Eduardo
+  - family-names: Barbosa de Oliveira
+    given-names: Laís
+  - family-names: Oliveira Soares
+    given-names: Lucas
+  - family-names: Antonio Gil do Amaral
+    given-names: Marco
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor 
+    affiliation: PUC Minas
+    family-names: Herman Silva
+    given-names: Herison
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  - Controla
+  - Facil
+  - Financeiro
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla.git
+version: 1.0.0
+date-released: 2024-06-23
  
  
