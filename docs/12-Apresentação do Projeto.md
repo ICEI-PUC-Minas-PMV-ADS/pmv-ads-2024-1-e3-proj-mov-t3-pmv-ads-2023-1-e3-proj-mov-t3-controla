@@ -19,6 +19,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Conjunto de Slides (Estrutura)
 
+![consd finais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t3-pmv-ads-2023-1-e3-proj-mov-t3-controla/assets/127629619/bc0be281-0793-4231-a6a6-4209bf4092ad)
 
 
 
