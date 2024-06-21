@@ -23,6 +23,6 @@ A aplicação está disponível na plataforma Expo, que foi utilizada para o des
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 21/06/2024
 #### Adicionado/Atualizado/Removido
 - Relação de artefatos ...
